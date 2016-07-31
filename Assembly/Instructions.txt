@@ -1,0 +1,4 @@
+1. Install DOSBox if using x64
+2. Configure DOSBox where:
+	Z:\>mount C C:\masm32\_projects
+3. Make sure to copy the whole folder of masm32 to C:\ first.
