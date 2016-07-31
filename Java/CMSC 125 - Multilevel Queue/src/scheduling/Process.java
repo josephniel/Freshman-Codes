@@ -1,0 +1,101 @@
+package scheduling;
+
+public class Process{
+	
+	private int id;
+	private int arrivalTime;
+	private int burstTime;
+	private int waitingTime;
+	private int turnaroundTime;
+	private int endTime;
+	private int priorityNum;
+	
+	private int currentQueue;
+	private int timeQuantumSpent;
+	
+	public Process(int id, int arrivalTime, int burstTime){
+		this.id = id;
+		this.arrivalTime = arrivalTime;
+		this.burstTime = burstTime;
+	}
+	
+	public Process(int id, int arrivalTime, int burstTime, int priorityNum){
+		this.id = id;
+		this.arrivalTime = arrivalTime;
+		this.burstTime = burstTime;
+		this.priorityNum = priorityNum;
+	}
+	
+	public int getId(){
+		return id;
+	}
+	
+	public void setId(int id){
+		this.id = id; 	
+	}
+	
+	public int getArrivalTime(){
+		return arrivalTime;
+	}
+	
+	public void setArrivalTime(int arrivalTime){
+		this.arrivalTime = arrivalTime;
+	}
+	
+	public int getBurstTime(){
+		return burstTime;
+	}
+	
+	public void setBurstTime(int burstTime){
+		this.burstTime = burstTime;
+	}
+	
+	public int getWaitingTime(){
+		return waitingTime;
+	}
+	
+	public void setWaitingTime(int waitingTime){
+		this.waitingTime = waitingTime;
+	}
+	
+	public int getTurnaroundTime(){
+		return turnaroundTime;
+	}
+	
+	public void setTurnaroundTime(int turnaroundTime){
+		this.turnaroundTime = turnaroundTime;
+	}
+	
+	public int getEndTime(){
+		return endTime;
+	}
+	
+	public void setEndTime(int endTime){
+		this.endTime = endTime;
+	}
+
+	public int getPriorityNum() {
+		return priorityNum;
+	}
+
+	public void setPriorityNum(int priorityNum) {
+		this.priorityNum = priorityNum;
+	}
+
+	public int getCurrentQueue() {
+		return currentQueue;
+	}
+
+	public void setCurrentQueue(int currentQueue) {
+		this.currentQueue = currentQueue;
+	}
+
+	public int getTimeQuantumSpent() {
+		return timeQuantumSpent;
+	}
+
+	public void setTimeQuantumSpent(int timeQuantumSpent) {
+		this.timeQuantumSpent = timeQuantumSpent;
+	}
+	
+}

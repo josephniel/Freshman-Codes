@@ -1,0 +1,24 @@
+TASKS:
+	- printf(%d)
+		- assume single digit. so
+	
+	- db, dw
+	
+DONE TASKS:
+	- pag ginawa nya to. age[0]= 'a'
+		- kuhanin yung original value ni char, yung buong value
+		- babaguhin mo at that index.
+		- SOLUTION:
+			- istostore yung value nung variableName.
+			- tapos mag add ka ng naiincrement na value dun sa variable name
+			- gumawa ng bagong variable pag nagawa na yung naedit
+			- PANO?
+				- pag may nadeclare na variable istore sa arraylist yung variable na yun
+					- kailan ba nagstostore?
+						- for, ++, --, command=""
+							- under command = "", handle case na binabago yung string
+				- pati yung value
+				- pag ireretrieve na, PANO?
+					- array.get()
+					- nakaloop
+		

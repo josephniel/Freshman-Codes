@@ -1,0 +1,83 @@
+IF ELSE CASE:
+// initial declarations:
+// String firstValue = "";
+// String secondValue = "";
+// Stack<Integer> whatKindOfJump = new Stack<Integer>();
+// Stack<Integer> underWhat = new Stack<Integer>();
+// Stack<String> lastLabel = new Stack<String>();
+
+	EXPLANATION:
+		- pag may nakitang :, ibigsabihin label yun.
+		- chinecheck nya kung under ba yung label na yun ng IF LANG. (equivalent to 0 sa stack)
+		- pag under siya ng IF LANG, lalagyan lang nya curly brace yung converted code.
+		- pero pag under siya ng ELSE, lalagyan nya ng "}else{" yung convered code. (equivalent to 1 sa stack)
+		- tapos mag pupush ng 0 para pag may nakita uling label, itretreat sa closing curly brace na siya.
+	
+	if(line.contains(":")){
+		int x = underWhat.pop();
+		if(x==0){
+			newBody+="}\n";
+		}else if(x==1){
+			newBody += "}else{ \n";
+			underWhat.push(0);
+		}
+	}
+	
+	EXPLANATION:
+		- pag may jmp tapos under pa siya ng IF, ibigsabihin ELSE yun. (equivalent ang else sa 1 sa stack ng underWhat)
+		- so nagpush ng 1 sa underWhat na stack
+	
+	if(line.contains("jmp")){
+		int x = underWhat.pop();
+		if(x==0){  
+			underWhat.push(1);
+		}
+	}
+	
+	EXPLANATION:
+		- pag may nakitang compare, tapos under naman siya ng wala. ibigsabihin IF yan or IF ELSE.
+		- so kinuha lang yung dalawang value na cinocompare
+		- tapos nagpush ng 0 sa underWhat, ibigsabihin under siya ng IF.
+	
+	if(line.contains("cmp") && underWhat.isEmpty()){
+		String values = line.substring(line.indexOf("cmp")+3).trim();
+		StringTokenizer valuesTokenizer = new StringTokenizer(values, ",");
+		firstValue = valuesTokenizer.nextToken();
+		secondValue = valuesTokenizer.nextToken();
+		underwhat.push(0); //ibigsabihin ng 0 eh, if jump siya.
+	}
+	
+	EXPLANATION:
+		- kapag may nakitang conditional jump
+		- ichecheck nya kung under ng ano yung jump
+		- pag 0, ibigsabihin under ng IF yung conditional Jump.
+	
+	if(line.contains("jne") || line.contains("je") || line.contains("jl") || 
+	   line.contains("jle") || line.contains("jg") || line.contains("jge")){
+		
+		StringTokenizer whatJump = new StringTokenizer(line, " ");
+		String theJump = whatJump.nextToken();
+		int x = underWhat.pop();
+		
+		if(x == 0){
+			// magagamit mo parin yung firstValue at secondValue dahil di pa naman siya nagalaw
+			if(theJump.equals("je")){
+				theJump = "!=";
+			}else if(theJump.equals("jne")){
+				theJump = "==";
+			}else if(theJump.equals("jle")){
+				theJump = ">";
+			}else if(theJump.equals("jge")){
+				theJump = "<";
+			}else if(theJump.equals("jl")){
+				theJump = ">=";
+			}else if(theJump.equals("jg")){
+				theJump = "<=";
+			}
+			
+			newBody += "if("+firstValue+theJump+secondValue"){ \n";
+			underWhat.push(0); //means the code is under IF
+		}
+	}
+	
+	
