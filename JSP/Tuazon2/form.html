@@ -1,0 +1,268 @@
+<!doctype><html><head>
+	<title>Exercise 2 - Registration Form Validation</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style type="text/css">
+		body{background-image: url(images/bg.png);}
+		
+	</style>
+	
+	<script>
+function validateForm(){
+
+	var name_indicator = new Boolean();
+	
+	var firstname=document.forms["regForm"]["firstname"].value;
+	var lastname=document.forms["regForm"]["lastname"].value;
+	
+	if(firstname == null || lastname == null || firstname == "" || lastname == ""){
+		document.getElementById('name_error').style.visibility='visible';
+		name_indicator = false;
+	}
+	else{
+		document.getElementById('name_error').style.visibility='hidden';
+		name_indicator = true;
+	}
+	
+	var email_indicator = new Boolean();
+	
+	var email=document.forms["regForm"]["email"].value;
+	var atpos=email.indexOf("@");
+	var dotpos=email.lastIndexOf(".");
+	
+	if(email == null || email == "" || atpos == null || dotpos == null){
+		document.getElementById('email_error').style.visibility='visible';
+		email_indicator = false;
+	}
+	else if( atpos < 1 || dotpos < atpos+2 || dotpos+2 >= email.length){
+		document.getElementById('email_error').style.visibility='visible';
+		email_indicator = false;
+	}
+	else{
+		document.getElementById('email_error').style.visibility='hidden';
+		email_indicator = true;
+	}
+	
+	var date_indicator = new Boolean();
+	
+	var bd = document.forms["regForm"]["birthday"].value;
+	var bm = document.forms["regForm"]["birth_month"].value;
+	var by = document.forms["regForm"]["birth_year"].value;
+	
+	if(bd == "-" || bm == "-" || by == "-"){
+		document.getElementById('date_error').style.visibility='visible';
+		date_indicator = false;
+	}
+	else{
+		document.getElementById('date_error').style.visibility='hidden';
+		date_indicator = true;
+	}
+	
+	var age_indicator = new Boolean();
+	
+	var age = document.forms["regForm"]["age"].value;
+	
+	if(age == null || age == '' || age > 25 || age < 18){
+		document.getElementById('age_error').style.visibility='visible';
+		age_indicator = false;
+	}
+	else{
+		document.getElementById('age_error').style.visibility='hidden';
+		age_indicator = true;
+	}
+	
+	var today = new Date();
+	var cd = today.getDate();
+	var cm = today.getMonth()+1;
+	var cy = today.getFullYear();
+	
+	if(by == cy - age){
+		if(bm == cm){
+			if(bd == cd){
+				document.getElementById('date_error').style.visibility='hidden';
+				date_indicator = true;
+			}
+			else{
+				document.getElementById('date_error').style.visibility='visible';
+				date_indicator = false;
+			}
+		}
+		else if(bm < cm){
+			document.getElementById('date_error').style.visibility='hidden';
+			date_indicator = true;
+		}
+		else{
+			document.getElementById('date_error').style.visibility='visible';
+			date_indicator = false;
+		}
+	}
+	else{
+		document.getElementById('date_error').style.visibility='visible';
+		date_indicator = false;
+	}
+	
+	
+	if(name_indicator == false || email_indicator == false || date_indicator == false || age_indicator == false){
+		return false;
+	}
+}	
+	</script>
+	
+	</head>
+	<body>
+		<h1>Registration Form</h1><div class='line'></div>
+		<form name="regForm" action="echo" onsubmit="return validateForm()" method="post">
+			<table>
+				<tr>
+					<td class='c1'>
+						Name <span class='red'>*</span>  
+					</td>
+					<td class='c2'>
+						<input type='text' name='firstname' id='firstname' />
+					</td>
+					<td class='c3'>
+						<input type='text' name='lastname' id='lastname' />
+					</td>
+					<td class='c4'> 
+						<span id='name_error'>Please provide a name</span>
+					</td>
+				</tr>
+				<tr>
+					<td class='c1'></td>
+					<td class='c2'>
+						<span class='label'>First Name</span>
+					</td>
+					<td class='c3'>
+						<span class='label'>Last Name</span>
+					</td>
+				</tr>
+				<tr>
+					<td class='c1'>
+						Birth Date <span class='red'>*</span> 
+					</td>
+					<td class='c2'>
+						<select name='birth_month' id='month'>
+							<option value='-'>-</option>
+							<option value='1'>January</option>
+							<option value='2'>February</option>
+							<option value='3'>March</option>
+							<option value='4'>April</option>
+							<option value='5'>May</option>
+							<option value='6'>June</option>
+							<option value='7'>July</option>
+							<option value='8'>August</option>
+							<option value='9'>September</option>
+							<option value='10'>October</option>
+							<option value='11'>November</option>
+							<option value='12'>December</option>
+						</select>
+					</td>
+					<td class='c3'>
+						<select name='birthday' id='day'>
+							<option value='-'>-</option>
+							<option value='1'>1</option>
+							<option value='2'>2</option>
+							<option value='3'>3</option>
+							<option value='4'>4</option>
+							<option value='5'>5</option>
+							<option value='6'>6</option>
+							<option value='7'>7</option>
+							<option value='8'>8</option>
+							<option value='9'>9</option>
+							<option value='10'>10</option>
+							<option value='11'>11</option>
+							<option value='12'>12</option>
+							<option value='13'>13</option>
+							<option value='14'>14</option>
+							<option value='15'>15</option>
+							<option value='16'>16</option>
+							<option value='17'>17</option>
+							<option value='18'>18</option>
+							<option value='19'>19</option>
+							<option value='20'>20</option>
+							<option value='21'>21</option>
+							<option value='22'>22</option>
+							<option value='23'>23</option>
+							<option value='24'>24</option>
+							<option value='25'>25</option>
+							<option value='26'>26</option>
+							<option value='27'>27</option>
+							<option value='28'>28</option>
+							<option value='29'>29</option>
+							<option value='30'>30</option>
+							<option value='31'>31</option>
+						</select>
+						<select name='birth_year' id='year'>
+							<option value='-'>-</option>
+							<option value='1988'>1988</option>
+							<option value='1989'>1989</option>
+							<option value='1990'>1990</option>
+							<option value='1991'>1991</option>
+							<option value='1992'>1992</option>
+							<option value='1993'>1993</option>
+							<option value='1994'>1994</option>
+							<option value='1995'>1995</option>
+							<option value='1996'>1996</option>
+							<option value='1997'>1997</option>
+							<option value='1998'>1998</option>
+							<option value='1999'>1999</option>
+							<option value='2000'>2000</option>
+							<option value='2001'>2001</option>
+							<option value='2002'>2002</option>
+							<option value='2003'>2003</option>
+							<option value='2004'>2004</option>
+							<option value='2005'>2005</option>
+							<option value='2006'>2006</option>
+							<option value='2007'>2007</option>
+							<option value='2008'>2008</option>
+							<option value='2009'>2009</option>
+							<option value='2010'>2010</option>
+							<option value='2011'>2011</option>
+							<option value='2012'>2012</option>
+							<option value='2013'>2013</option>
+						</select>
+					</td>
+					<td class='c4'>
+						<span id='date_error'>Please select a birth date</span>
+					</td>
+				</tr>
+				<tr>
+					<td class='c1'></td>
+					<td class='c2'>
+						<span class='label'>Month</span>
+					</td>
+					<td class='c3'>
+						<span class='label' id='day_label'>Day</span>
+						<span class='label' id='year_label'>Year</span>
+					</td>
+				</tr>
+				<tr class='age_row'>
+					<td class='c1'>
+						Age <span class='red'>*</span> 
+					</td>
+					<td class='c2'>
+						<input type='number' name='Age' id='age' min='1' max='25' />
+					</td>
+					<td class='c3' colspan='2'>
+						<span id='age_error'>Please enter a valid age</span>
+					</td>
+				</tr>
+				<tr class='email_row'>
+					<td class='c1'>
+						Email <span class='red'>*</span> 
+					</td>
+					<td colspan='2'> <input type='text' name='email' id='email' /> </td>
+					<td class='c4'>
+						<span id='email_error'>Please enter a valid email address</span>
+					</td>
+				</tr>
+				<tr>
+					<td class='c1'></td>
+					<td class='c2' colspan='2'>
+						<input type="submit" value="Submit" class="submit" />
+						<input type='reset' value="Clear Form" class='reset' />
+					</td>
+				</tr>
+			</table>
+		</form>
+		
+	</body></html>

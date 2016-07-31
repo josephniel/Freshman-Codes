@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+	
+	<servlet>
+		<servlet-name>CartPage</servlet-name>
+		<servlet-class>Cart</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>DetailsPage</servlet-name>
+		<servlet-class>Details</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>PaymentMethod</servlet-name>
+		<servlet-class>PaymentMethod</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>CardDetails</servlet-name>
+		<servlet-class>CardDetails</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>ResultsPage</servlet-name>
+		<servlet-class>ResultsPage</servlet-class>
+	</servlet>
+	
+   <servlet-mapping>
+      <servlet-name>CartPage</servlet-name>
+      <url-pattern>/cart</url-pattern>
+   </servlet-mapping>
+	
+   <servlet-mapping>
+      <servlet-name>DetailsPage</servlet-name>
+      <url-pattern>/details</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>PaymentMethod</servlet-name>
+      <url-pattern>/paymentmethod</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>CardDetails</servlet-name>
+      <url-pattern>/carddetails</url-pattern>
+   </servlet-mapping>
+   
+   <servlet-mapping>
+      <servlet-name>ResultsPage</servlet-name>
+      <url-pattern>/result</url-pattern>
+   </servlet-mapping>
+   
+</web-app>

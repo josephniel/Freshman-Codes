@@ -1,0 +1,100 @@
+*{
+	font-family: Bookman Old style;
+}
+		
+body{
+	width: 800px;
+	margin: 0 auto; 
+	background-position: top center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #f4f5ee;
+	background-attachment: fixed;
+}
+		
+	h1{
+		margin: 80px 0 0;
+		color: #222222 !important;
+		font-weight:600;
+	}
+	.line{
+		width: 500px;
+		height: 3px;
+		border-top: 1px dashed #777;
+		border-bottom: 1px dashed #777;
+		margin: 20px 0;
+	}
+
+	section{
+		margin: 0 0 20px;
+	}
+			
+		span.red{
+			color: #f00;
+		}
+		span.label{
+			color: #777;
+			font-size: 12px;
+		}
+			
+		table{
+			width: 100%;
+		}
+			table .c1{
+				width: 200px;
+			}
+			table .c2,
+			table .c3{
+				width: 150px;
+				position: relative;
+			}
+			table .c4{
+				width: 300px;
+			}
+					
+			.c2 select{
+				width: 100%;
+			}
+			.c3 #day{
+				width: 50px;
+			}
+			.c3 #year{
+				width: 93px;
+			}
+					
+			#year_label{
+				position: absolute;
+				left: 60px;
+			}
+					
+			input{
+				width: 100%;
+			}
+					
+			.age_row,
+			.email_row{
+				height: 45px;
+				vertical-align: top;
+			}
+					
+			button{
+				height: 30px;						
+			}
+			.submit{
+				width: 80px;
+				margin: 0 4px 0 0;
+			}
+			.reset{
+				width: 104px;
+				margin: 0;
+			}
+					
+			#name_error,
+			#date_error,
+			#age_error,
+			#email_error{
+				font-size: 14px;
+				font-style: italic;
+				color: #f00;
+				visibility: hidden;
+			}
