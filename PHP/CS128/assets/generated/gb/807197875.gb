@@ -1,0 +1,55 @@
+LOCUS       AKC57653                 134 aa            linear   VRT 20-APR-2015
+DEFINITION  cytochrome oxidase subunit I, partial (mitochondrion) [Arius
+            arius].
+ACCESSION   AKC57653
+VERSION     AKC57653.1  GI:807197875
+DBSOURCE    accession KP308087.1
+KEYWORDS    .
+SOURCE      mitochondrion Arius arius (threadfin sea catfish)
+  ORGANISM  Arius arius
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes;
+            Ariidae; Arius.
+REFERENCE   1  (residues 1 to 134)
+  AUTHORS   Thangaraj,M. and Thirumaraiselvi,R.
+  TITLE     Molecular identification of Vellar estuary fishes
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 134)
+  AUTHORS   Thangaraj,M. and Thirumaraiselvi,R.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-DEC-2014) CAS in Marine Biology, Annamalai
+            University, Rave Main Road, Parangipettai, Tamilnadu 608502, India
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..134
+                     /organism="Arius arius"
+                     /organelle="mitochondrion"
+                     /isolate="TRL364"
+                     /db_xref="taxon:287714"
+                     /tissue_type="fin clips"
+                     /country="India"
+                     /collected_by="R. Thirumaraiselvi"
+     Protein         <1..>134
+                     /product="cytochrome oxidase subunit I"
+     Region          1..>134
+                     /region_name="Heme_Cu_Oxidase_I"
+                     /note="Heme-copper oxidase subunit I. Heme-copper oxidases
+                     are transmembrane protein complexes in the respiratory
+                     chains of prokaryotes and mitochondria which catalyze the
+                     reduction of O2 and simultaneously pump protons across the
+                     membrane. The superfamily is...; cl00275"
+                     /db_xref="CDD:271455"
+     Site            order(38,49,56,59,114..115,121,125)
+                     /site_type="other"
+                     /note="D-pathway"
+                     /db_xref="CDD:238461"
+     CDS             1..134
+                     /gene="COI"
+                     /coded_by="KP308087.1:<1..>402"
+                     /transl_table=2
+ORIGIN      
+        1 qpgallgddq iynvivtaha fvmiffmvmp imiggfgnwl vplmigapdm afprmnnmsf
+       61 wllppsflll lassgveaga gtgwtvyppl sgnlahagas vdltifslhl agvssilgai
+      121 nfittiinmk ppai
+//
+

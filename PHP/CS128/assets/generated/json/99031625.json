@@ -1,0 +1,774 @@
+{
+    "GBSeq": {
+        "GBSeq_locus": "1X0V_B",
+        "GBSeq_length": "354",
+        "GBSeq_moltype": "AA",
+        "GBSeq_topology": "linear",
+        "GBSeq_division": "PRI",
+        "GBSeq_update-date": "31-OCT-2012",
+        "GBSeq_create-date": "22-MAY-2006",
+        "GBSeq_definition": "Chain B, Crystal Structure Of Homo Sapien Glycerol-3-Phosphate Dehydrogenase 1",
+        "GBSeq_primary-accession": "1X0V_B",
+        "GBSeq_accession-version": "1X0V_B",
+        "GBSeq_other-seqids": {
+            "GBSeqid": [
+                "pdb|1X0V|B",
+                "gi|99031625"
+            ]
+        },
+        "GBSeq_source": "Homo sapiens (human)",
+        "GBSeq_organism": "Homo sapiens",
+        "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini; Catarrhini; Hominidae; Homo",
+        "GBSeq_references": {
+            "GBReference": [
+                {
+                    "GBReference_reference": "1",
+                    "GBReference_position": "1..354",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Ou,X.",
+                            "Ji,C.",
+                            "Han,X.",
+                            "Zhao,X.",
+                            "Li,X.",
+                            "Mao,Y.",
+                            "Wong,L.L.",
+                            "Bartlam,M.",
+                            "Rao,Z."
+                        ]
+                    },
+                    "GBReference_title": "Crystal structures of human glycerol 3-phosphate dehydrogenase 1 (GPD1)",
+                    "GBReference_journal": "J. Mol. Biol. 357 (3), 858-869 (2006)",
+                    "GBReference_xref": {
+                        "GBXref": {
+                            "GBXref_dbname": "doi",
+                            "GBXref_id": "10.1016\/j.jmb.2005.12.074"
+                        }
+                    },
+                    "GBReference_pubmed": "16460752"
+                },
+                {
+                    "GBReference_reference": "2",
+                    "GBReference_position": "1..354",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Rao,Z.",
+                            "Ou,X."
+                        ]
+                    },
+                    "GBReference_title": "Direct Submission",
+                    "GBReference_journal": "Submitted (30-MAR-2005)"
+                }
+            ]
+        },
+        "GBSeq_comment": "1 Glycerol-3-phosphate Dehydrogenase [nad+], Cytoplasmic",
+        "GBSeq_source-db": "pdb: molecule 1X0V, chain 66, release Oct 25, 2012; deposition: Mar 30, 2005; class: Oxidoreductase; source: Mmdb_id: 38468, Pdb_id 1: 1X0V; Exp. method: X-Ray Diffraction.",
+        "GBSeq_feature-table": {
+            "GBFeature": [
+                {
+                    "GBFeature_key": "source",
+                    "GBFeature_location": "1..354",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "354",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "organism",
+                                "GBQualifier_value": "Homo sapiens"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "taxon:9606"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "1..198",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "198",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "Domain 3"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "NCBI Domains"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "10..347",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "10",
+                            "GBInterval_to": "347",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "glycerol3P_DH"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "glycerol-3-phosphate dehydrogenase (NAD(+)); TIGR03376"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:274551"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "10..177",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "10",
+                            "GBInterval_to": "177",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "NAD_Gly3P_dh_N"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus; pfam01210"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:250446"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "10..15",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "10",
+                            "GBInterval_to": "15",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 11"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "18..33",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "18",
+                            "GBInterval_to": "33",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 13"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "40..45",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "40",
+                            "GBInterval_to": "45",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 12"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "47..51",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "47",
+                            "GBInterval_to": "51",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 13"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "52..56",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "52",
+                            "GBInterval_to": "56",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 14"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "77..82",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "77",
+                            "GBInterval_to": "82",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "92..97",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "92",
+                            "GBInterval_to": "97",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 16"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "103..110",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "103",
+                            "GBInterval_to": "110",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 14"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "118..123",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "118",
+                            "GBInterval_to": "123",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 17"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "127..131",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "127",
+                            "GBInterval_to": "131",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 18"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "132..136",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "132",
+                            "GBInterval_to": "136",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 19"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "137..145",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "137",
+                            "GBInterval_to": "145",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 15"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "147..154",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "147",
+                            "GBInterval_to": "154",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 20"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "157..164",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "157",
+                            "GBInterval_to": "164",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 16"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "166..173",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "166",
+                            "GBInterval_to": "173",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 21"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "176..186",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "176",
+                            "GBInterval_to": "186",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 17"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "190..197",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "190",
+                            "GBInterval_to": "197",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "sheet"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "strand 22"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "197..347",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "197",
+                            "GBInterval_to": "347",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "NAD_Gly3P_dh_C"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "NAD-dependent glycerol-3-phosphate dehydrogenase C-terminus; pfam07479"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:254224"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "199..354",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "199",
+                            "GBInterval_to": "354",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "Domain 4"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "NCBI Domains"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "199..222",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "199",
+                            "GBInterval_to": "222",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 18"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "226..247",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "226",
+                            "GBInterval_to": "247",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 19"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "263..271",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "263",
+                            "GBInterval_to": "271",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 20"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "274..284",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "274",
+                            "GBInterval_to": "284",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 21"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "288..296",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "288",
+                            "GBInterval_to": "296",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 22"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "304..318",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "304",
+                            "GBInterval_to": "318",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 23"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "SecStr",
+                    "GBFeature_location": "325..334",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "325",
+                            "GBInterval_to": "334",
+                            "GBInterval_accession": "1X0V_B"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "sec_str_type",
+                                "GBQualifier_value": "helix"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "helix 24"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "GBSeq_sequence": "gplgsxaskkvcivgsgnwgsaiakivggnaaqlaqfdprvtxwvfeediggkklteiintqhenvkylpghklppnvvavpdvvqaaedadilifvvphqfigkicdqlkghlkanatgislikgvdegpnglklisevigerlgipxsvlxganiasevadekfcettigckdpaqgqllkelxqtpnfritvvqevdtveicgalknvvavgagfcdglgfgdntkaavirlglxexiafaklfcsgpvssatflescgvadlittcyggrnrkvaeafartgksieqlekellngqklqgpetarelysilqhkglvdkfplfxavykvcyegqpvgefihclqnhpehx"
+    }
+}

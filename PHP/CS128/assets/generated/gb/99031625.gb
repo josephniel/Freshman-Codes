@@ -1,0 +1,134 @@
+LOCUS       1X0V_B                   354 aa            linear   PRI 31-OCT-2012
+DEFINITION  Chain B, Crystal Structure Of Homo Sapien Glycerol-3-Phosphate
+            Dehydrogenase 1.
+ACCESSION   1X0V_B
+VERSION     1X0V_B  GI:99031625
+DBSOURCE    pdb: molecule 1X0V, chain 66, release Oct 25, 2012;
+            deposition: Mar 30, 2005;
+            class: Oxidoreductase;
+            source: Mmdb_id: 38468, Pdb_id 1: 1X0V;
+            Exp. method: X-Ray Diffraction.
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 354)
+  AUTHORS   Ou,X., Ji,C., Han,X., Zhao,X., Li,X., Mao,Y., Wong,L.L., Bartlam,M.
+            and Rao,Z.
+  TITLE     Crystal structures of human glycerol 3-phosphate dehydrogenase 1
+            (GPD1)
+  JOURNAL   J. Mol. Biol. 357 (3), 858-869 (2006)
+   PUBMED   16460752
+REFERENCE   2  (residues 1 to 354)
+  AUTHORS   Rao,Z. and Ou,X.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAR-2005)
+COMMENT     1 Glycerol-3-phosphate Dehydrogenase [nad+], Cytoplasmic.
+FEATURES             Location/Qualifiers
+     source          1..354
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     Region          1..198
+                     /region_name="Domain 3"
+                     /note="NCBI Domains"
+     Region          10..347
+                     /region_name="glycerol3P_DH"
+                     /note="glycerol-3-phosphate dehydrogenase (NAD(+));
+                     TIGR03376"
+                     /db_xref="CDD:274551"
+     Region          10..177
+                     /region_name="NAD_Gly3P_dh_N"
+                     /note="NAD-dependent glycerol-3-phosphate dehydrogenase
+                     N-terminus; pfam01210"
+                     /db_xref="CDD:250446"
+     SecStr          10..15
+                     /sec_str_type="sheet"
+                     /note="strand 11"
+     SecStr          18..33
+                     /sec_str_type="helix"
+                     /note="helix 13"
+     SecStr          40..45
+                     /sec_str_type="sheet"
+                     /note="strand 12"
+     SecStr          47..51
+                     /sec_str_type="sheet"
+                     /note="strand 13"
+     SecStr          52..56
+                     /sec_str_type="sheet"
+                     /note="strand 14"
+     SecStr          77..82
+                     /sec_str_type="sheet"
+                     /note="strand 15"
+     SecStr          92..97
+                     /sec_str_type="sheet"
+                     /note="strand 16"
+     SecStr          103..110
+                     /sec_str_type="helix"
+                     /note="helix 14"
+     SecStr          118..123
+                     /sec_str_type="sheet"
+                     /note="strand 17"
+     SecStr          127..131
+                     /sec_str_type="sheet"
+                     /note="strand 18"
+     SecStr          132..136
+                     /sec_str_type="sheet"
+                     /note="strand 19"
+     SecStr          137..145
+                     /sec_str_type="helix"
+                     /note="helix 15"
+     SecStr          147..154
+                     /sec_str_type="sheet"
+                     /note="strand 20"
+     SecStr          157..164
+                     /sec_str_type="helix"
+                     /note="helix 16"
+     SecStr          166..173
+                     /sec_str_type="sheet"
+                     /note="strand 21"
+     SecStr          176..186
+                     /sec_str_type="helix"
+                     /note="helix 17"
+     SecStr          190..197
+                     /sec_str_type="sheet"
+                     /note="strand 22"
+     Region          197..347
+                     /region_name="NAD_Gly3P_dh_C"
+                     /note="NAD-dependent glycerol-3-phosphate dehydrogenase
+                     C-terminus; pfam07479"
+                     /db_xref="CDD:254224"
+     Region          199..354
+                     /region_name="Domain 4"
+                     /note="NCBI Domains"
+     SecStr          199..222
+                     /sec_str_type="helix"
+                     /note="helix 18"
+     SecStr          226..247
+                     /sec_str_type="helix"
+                     /note="helix 19"
+     SecStr          263..271
+                     /sec_str_type="helix"
+                     /note="helix 20"
+     SecStr          274..284
+                     /sec_str_type="helix"
+                     /note="helix 21"
+     SecStr          288..296
+                     /sec_str_type="helix"
+                     /note="helix 22"
+     SecStr          304..318
+                     /sec_str_type="helix"
+                     /note="helix 23"
+     SecStr          325..334
+                     /sec_str_type="helix"
+                     /note="helix 24"
+ORIGIN      
+        1 gplgsxaskk vcivgsgnwg saiakivggn aaqlaqfdpr vtxwvfeedi ggkklteiin
+       61 tqhenvkylp ghklppnvva vpdvvqaaed adilifvvph qfigkicdql kghlkanatg
+      121 islikgvdeg pnglklisev igerlgipxs vlxganiase vadekfcett igckdpaqgq
+      181 llkelxqtpn fritvvqevd tveicgalkn vvavgagfcd glgfgdntka avirlglxex
+      241 iafaklfcsg pvssatfles cgvadlittc yggrnrkvae afartgksie qlekellngq
+      301 klqgpetare lysilqhkgl vdkfplfxav ykvcyegqpv gefihclqnh pehx
+//
+

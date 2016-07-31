@@ -1,0 +1,296 @@
+/* 
+* START OF foundation.css ALTERATIONS 
+*/
+	[data-abide] .error small.error, [data-abide] .error span.error, [data-abide] span.error, [data-abide] small.error {
+		padding: 0 0.5625rem;
+	}
+
+	span.error, small.error {
+		padding: 0 0.5625rem;
+	}
+
+	.error small.error {
+		padding: 0 0.5625rem;
+	}
+
+	input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+		margin: 0 0 0.5625rem;
+	}
+/* 
+* END OF foundation.css ALTERATIONS 
+*/
+
+body{ background: #fff; }
+	
+/* CSS FOR HEADER */
+	#header{
+		width: 100%;
+		background: #f2f2f2 url('../images/axiom-pattern.png') center center fixed;
+		box-shadow: 0 0 5px #ddd;
+		border-bottom: 1px solid #d8d8d8;
+		padding: 50px 0;
+	}
+		#header img{
+			width: 100px;
+			height: 100px;
+		}
+		#header h3{
+			line-height: 100px;
+			font-weight: 700;
+		}
+
+/* CSS FOR MAIN CONTENT */			
+		
+	/* CSS FOR SEARCH_VIEW */
+		#searchBarContainer{
+			background: #fff;
+			max-width: 650px;
+			margin: 0 auto;
+			z-index: 2;
+		}
+			#advancedSearch{
+				cursor: pointer;
+				color: #008CBA;
+			}
+			#advancedSearch:focus,
+			#advancedSearch:hover{
+				color: #0078a0;
+			}
+				
+			.advancedSearchButton{
+				width: 100% !important;
+				height: 37px !important;
+				line-height: 37px !important;
+				padding: 0 !important;
+			}
+			
+	/* CSS FOR SEARCH_RESULTS_VIEW */
+		#searchResults{
+			padding: 30px 20px 20px;
+			z-index: 1;
+			max-width: 640px;
+			margin: 0 auto;
+		}
+			#searchResultsHeader{
+				max-width: 640px;
+				height: auto;
+				margin: 10px auto 0;
+			}
+		
+				#searchResults .searchTitle,
+				#searchResults .checkbox{
+					line-height: 1.5em !important;
+					height: 1.5em;
+					margin: 0;
+					padding: 0;
+				}
+				#searchResults #nextButton{
+					border-left: 1px solid #fff;
+				}
+				
+				.searchResultTitle{
+					color: #008CBA;
+					cursor: pointer;
+				}
+				.searchResultTitle:focus,
+				.searchResultTitle:hover{
+					color: #0078a0;
+				}		
+			
+				.no-search-result{
+					margin: 20px auto; 
+					max-width: 600px;
+					font-size: 24px
+				}
+		
+	/* CSS FOR PERMALINK_MODAL */	
+		#filesViewer{
+			position: relative;
+			overflow: hidden;
+			height: 350px;
+		}
+			.gb-file-view{
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: calc(100% - 100px);
+				padding: 50px;
+				font-size: 16px;
+				margin: 0;
+			}
+			.json-file-view{
+				position: absolute;
+				top: 0;
+				left: 100%;
+				width: 100%;
+				padding: 50px;
+				overflow: auto;
+				word-wrap: break-word;
+			}
+		
+		#downloadGB{ display: block; }
+		#downloadJSON{ display: none; }
+		
+	/* CSS FOR LEFT_PANEL / RECENT_SEARCH_SETTINGS */
+		#recentSearchesContainer{
+			margin: 0 0 20px;
+			min-height: 300px;
+		}
+			#recentSearches{
+				min-height: 200px;
+			}
+			#recentSearchesLink{
+				cursor: pointer;
+				color: #008CBA;
+				font-size: 14px;
+			}
+				#recentSearchesLink:focus,
+				#recentSearchesLink:hover{
+					color: #0078a0;
+				}
+			
+		#searchSettings{
+			cursor: pointer;
+			color: #008CBA;
+			float: right;
+		}
+			#searchSettings:focus,
+			#searchSettings:hover{
+				color: #0078a0;
+			}
+		
+/* CSS FOR MODALS */
+	#modalContainer{
+		width: 100%;
+		height: 100%;
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: rgba(0,0,0,0.5);
+		z-index: 99;
+		overflow: auto;
+		display: none;
+	}
+		#modalInnerContainer{
+			width: 100%;
+			height: auto;
+			min-height: calc(100% - 100px);
+		}
+		.modal{
+			width: 70%;
+			padding: 0;
+			background: #fff;
+			margin: 50px auto;
+			position: relative;
+			overflow: hidden;
+		}	
+		.hide-for-large-up .modal{
+			width: 85%;
+		}
+			.modal iframe{
+				width: 100%;
+				overflow-y: hidden;
+			}
+			.closeModal{
+				position: absolute;
+				top: 15px;
+				right: 20px;
+				font-size: 40px;
+				line-height: 40px;
+			}
+			.modal .loader{
+				width: 125px;
+				left: 50%;
+				margin: 40px 0 40px calc(50% - 60px);
+			}
+			
+			.innerModal{
+				position: relative;
+				padding: 40px;
+			}
+			
+			.modalHeader{
+				padding: 40px 50px 20px;
+				background: #f2f2f2;
+				border: 1px solid #d8d8d8;
+			}
+				.modalHeader h3{
+					margin: 0;
+				}
+			.modalFooter{
+				padding: 20px 50px;
+				background: #f2f2f2;
+				border: 1px solid #d8d8d8;
+			}
+			.hide-for-large-up .modalFooter{
+				padding: 20px;
+				background: #f2f2f2;
+				border: 1px solid #d8d8d8;
+			}
+				.modalFooter button{
+					margin: 0;
+				}
+	
+/* CSS FOR FOOTER */	
+	#footer{
+		padding: 5px 50px;
+		width: calc(100%);
+		background: rgba(255,255,255,0.5);
+		border-top: 1px solid #d8d8d8;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		text-align: right;
+		height: 40px;
+	}
+		#footer ul{
+			list-style-type: none;
+			margin: 0;
+			background: none;
+			border: none;
+			padding: 0;
+		}
+			#footer .menu li{
+				float: left;
+				margin-right: 10px;
+				line-height: 30px;
+				font-size: 14px;
+			}
+			#footer .others li{
+				float: right;
+				margin-left: 10px;
+				line-height: 30px;
+				font-size: 14px;
+			}
+			
+			#footer .current{
+				cursor: default;
+				color: #333;
+			}
+			
+/* CSS FOR MISCELLANEOUS  */
+	#loader{
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 99999;
+		background: rgba(255,255,255,0.7);
+		display: none;
+	}
+		#loader .loader{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin: -10px 0 0 -60px;
+		}
+		
+	#collectionButton{
+		font-size: 10px;
+		position: fixed;
+		top: 10px;
+		right: 10px;
+		padding: 10px;
+		box-shadow: 0 0 5px #ddd;
+	}

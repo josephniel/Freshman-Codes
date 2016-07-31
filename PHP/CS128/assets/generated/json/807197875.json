@@ -1,0 +1,251 @@
+{
+    "GBSeq": {
+        "GBSeq_locus": "AKC57653",
+        "GBSeq_length": "134",
+        "GBSeq_moltype": "AA",
+        "GBSeq_topology": "linear",
+        "GBSeq_division": "VRT",
+        "GBSeq_update-date": "20-APR-2015",
+        "GBSeq_create-date": "20-APR-2015",
+        "GBSeq_definition": "cytochrome oxidase subunit I, partial (mitochondrion) [Arius arius]",
+        "GBSeq_primary-accession": "AKC57653",
+        "GBSeq_accession-version": "AKC57653.1",
+        "GBSeq_other-seqids": {
+            "GBSeqid": [
+                "gb|AKC57653.1|",
+                "gi|807197875"
+            ]
+        },
+        "GBSeq_source": "mitochondrion Arius arius (threadfin sea catfish)",
+        "GBSeq_organism": "Arius arius",
+        "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes; Ariidae; Arius",
+        "GBSeq_references": {
+            "GBReference": [
+                {
+                    "GBReference_reference": "1",
+                    "GBReference_position": "1..134",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Thangaraj,M.",
+                            "Thirumaraiselvi,R."
+                        ]
+                    },
+                    "GBReference_title": "Molecular identification of Vellar estuary fishes",
+                    "GBReference_journal": "Unpublished"
+                },
+                {
+                    "GBReference_reference": "2",
+                    "GBReference_position": "1..134",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Thangaraj,M.",
+                            "Thirumaraiselvi,R."
+                        ]
+                    },
+                    "GBReference_title": "Direct Submission",
+                    "GBReference_journal": "Submitted (22-DEC-2014) CAS in Marine Biology, Annamalai University, Rave Main Road, Parangipettai, Tamilnadu 608502, India"
+                }
+            ]
+        },
+        "GBSeq_comment": "Method: conceptual translation.",
+        "GBSeq_source-db": "accession KP308087.1",
+        "GBSeq_feature-table": {
+            "GBFeature": [
+                {
+                    "GBFeature_key": "source",
+                    "GBFeature_location": "1..134",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "134",
+                            "GBInterval_accession": "AKC57653.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "organism",
+                                "GBQualifier_value": "Arius arius"
+                            },
+                            {
+                                "GBQualifier_name": "organelle",
+                                "GBQualifier_value": "mitochondrion"
+                            },
+                            {
+                                "GBQualifier_name": "isolate",
+                                "GBQualifier_value": "TRL364"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "taxon:287714"
+                            },
+                            {
+                                "GBQualifier_name": "tissue_type",
+                                "GBQualifier_value": "fin clips"
+                            },
+                            {
+                                "GBQualifier_name": "country",
+                                "GBQualifier_value": "India"
+                            },
+                            {
+                                "GBQualifier_name": "collected_by",
+                                "GBQualifier_value": "R. Thirumaraiselvi"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Protein",
+                    "GBFeature_location": "<1..>134",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "134",
+                            "GBInterval_accession": "AKC57653.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": {
+                            "GBQualifier_name": "product",
+                            "GBQualifier_value": "cytochrome oxidase subunit I"
+                        }
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "1..>134",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "134",
+                            "GBInterval_accession": "AKC57653.1"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "Heme_Cu_Oxidase_I"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "Heme-copper oxidase subunit I. Heme-copper oxidases are transmembrane protein complexes in the respiratory chains of prokaryotes and mitochondria which catalyze the reduction of O2 and simultaneously pump protons across the membrane. The superfamily is...; cl00275"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:271455"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Site",
+                    "GBFeature_location": "order(38,49,56,59,114..115,121,125)",
+                    "GBFeature_intervals": {
+                        "GBInterval": [
+                            {
+                                "GBInterval_point": "38",
+                                "GBInterval_accession": "AKC57653.1"
+                            },
+                            {
+                                "GBInterval_point": "49",
+                                "GBInterval_accession": "AKC57653.1"
+                            },
+                            {
+                                "GBInterval_point": "56",
+                                "GBInterval_accession": "AKC57653.1"
+                            },
+                            {
+                                "GBInterval_point": "59",
+                                "GBInterval_accession": "AKC57653.1"
+                            },
+                            {
+                                "GBInterval_from": "114",
+                                "GBInterval_to": "115",
+                                "GBInterval_accession": "AKC57653.1"
+                            },
+                            {
+                                "GBInterval_point": "121",
+                                "GBInterval_accession": "AKC57653.1"
+                            },
+                            {
+                                "GBInterval_point": "125",
+                                "GBInterval_accession": "AKC57653.1"
+                            }
+                        ]
+                    },
+                    "GBFeature_operator": "order",
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "site_type",
+                                "GBQualifier_value": "other"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "D-pathway"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:238461"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "CDS",
+                    "GBFeature_location": "1..134",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "134",
+                            "GBInterval_accession": "AKC57653.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "gene",
+                                "GBQualifier_value": "COI"
+                            },
+                            {
+                                "GBQualifier_name": "coded_by",
+                                "GBQualifier_value": "KP308087.1:<1..>402"
+                            },
+                            {
+                                "GBQualifier_name": "transl_table",
+                                "GBQualifier_value": "2"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "GBSeq_sequence": "qpgallgddqiynvivtahafvmiffmvmpimiggfgnwlvplmigapdmafprmnnmsfwllppsfllllassgveagagtgwtvypplsgnlahagasvdltifslhlagvssilgainfittiinmkppai"
+    }
+}
