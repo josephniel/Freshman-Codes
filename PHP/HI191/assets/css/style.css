@@ -1,0 +1,109 @@
+body{ 
+	background: #fff; 
+	max-width: 1000px;
+	min-width: 500px;
+	margin: 0 auto;
+	}
+a{ 
+	text-decoration: none !important; 
+	}
+	
+header,
+section.main,
+footer{
+	padding: 20px 2%; /* max = 20px; min = 10px */
+	border-bottom: 1px solid #eee;
+	}
+	
+.paragraphTitle{
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0 0 20px;
+	}
+.paragraph{
+	margin: 20px 0 0;
+	}
+.paragraphSpace{
+	margin: 20px 0;
+	border-width: 0px !important;
+	}
+	
+header{
+	overflow: auto;
+	}
+	header .portrait{
+		width: 100px;
+		height: 100px;
+		border-radius: 50px;
+		float: left;
+		}
+	header .headerLogo{
+		width: calc(100% - 120px); /* 100px for portrait; 20px for margin */
+		height: 50px;
+		padding: 25px 0;
+		float: right;
+		}
+		.headerLogo p{
+			margin: 0px;
+			}
+		.headerLogo p.name{
+			height: 30px;
+			line-height: 30px;
+			font-size: 20px;
+			}
+		.headerLogo p.description{
+			line-height: 20px;
+			}
+			
+section.menu{
+	width: 100%;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+	}
+	.menu ul{
+		margin: 10px 0 !important;
+		overflow: auto;
+		list-style-type: none;
+		-webkit-padding-start: 0px;
+		-moz-padding-start: 0px;
+		}
+		.menu ul li{
+			float: left;
+			margin-left: 20px;
+			line-height: 30px;
+			padding: 0 10px;
+			background: #222;
+			color: #fff;
+			cursor: pointer;
+			}
+		
+		.internalLink{
+			margin-top: -50px;
+			height: 50px;
+			}
+				
+section.main{}
+	.about{
+		overflow: auto;
+		border-bottom: 1px solid #eee;
+		padding: 20px 0 30px;
+		}
+		.aboutSummary{
+			width: calc(100% - 400px);
+			float: left;
+			}
+		.linkedInProfile{
+			width: 364px;
+			padding: 7px;
+			border: 1px solid #eee;
+			float: right;
+			}
+			.linkedInProfile .paragraphTitle{
+				margin-bottom: 7px;
+				}
+	.works{
+		height: 1000px;
+		padding: 20px 0 30px;
+		}
+		
+		

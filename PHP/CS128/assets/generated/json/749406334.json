@@ -1,0 +1,213 @@
+{
+    "GBSeq": {
+        "GBSeq_locus": "AJF21312",
+        "GBSeq_length": "318",
+        "GBSeq_moltype": "AA",
+        "GBSeq_topology": "linear",
+        "GBSeq_division": "VRT",
+        "GBSeq_update-date": "31-MAR-2015",
+        "GBSeq_create-date": "31-MAR-2015",
+        "GBSeq_definition": "recombination activation protein 2, partial [Arius dispar]",
+        "GBSeq_primary-accession": "AJF21312",
+        "GBSeq_accession-version": "AJF21312.1",
+        "GBSeq_other-seqids": {
+            "GBSeqid": [
+                "gb|AJF21312.1|",
+                "gi|749406334"
+            ]
+        },
+        "GBSeq_source": "Arius dispar",
+        "GBSeq_organism": "Arius dispar",
+        "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes; Ariidae; Arius",
+        "GBSeq_references": {
+            "GBReference": [
+                {
+                    "GBReference_reference": "1",
+                    "GBReference_position": "1..318",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Yu,S.C.S.",
+                            "Quilang,J.P."
+                        ]
+                    },
+                    "GBReference_title": "Incongruence between molecular and morphological characters in differentiating the sea catfishes Arius manillensis and A. dispar (Siluriformes: Ariidae)",
+                    "GBReference_journal": "Unpublished"
+                },
+                {
+                    "GBReference_reference": "2",
+                    "GBReference_position": "1..318",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Yu,S.C.S.",
+                            "Quilang,J.P."
+                        ]
+                    },
+                    "GBReference_title": "Direct Submission",
+                    "GBReference_journal": "Submitted (28-FEB-2014) Institute of Biology, University of the Philippines, Diliman, Quezon City, Metro Manila 1101, Philippines"
+                }
+            ]
+        },
+        "GBSeq_comment": "##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##",
+        "GBSeq_source-db": "accession KJ533220.1",
+        "GBSeq_feature-table": {
+            "GBFeature": [
+                {
+                    "GBFeature_key": "source",
+                    "GBFeature_location": "1..318",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "318",
+                            "GBInterval_accession": "AJF21312.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "organism",
+                                "GBQualifier_value": "Arius dispar"
+                            },
+                            {
+                                "GBQualifier_name": "isolate",
+                                "GBQualifier_value": "BRAd1"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "taxon:943112"
+                            },
+                            {
+                                "GBQualifier_name": "country",
+                                "GBQualifier_value": "Philippines"
+                            },
+                            {
+                                "GBQualifier_name": "lat_lon",
+                                "GBQualifier_value": "14 N 121 E"
+                            },
+                            {
+                                "GBQualifier_name": "collection_date",
+                                "GBQualifier_value": "11-Dec-2012"
+                            },
+                            {
+                                "GBQualifier_name": "collected_by",
+                                "GBQualifier_value": "J.P. Quilang, S.C.S. Yu"
+                            },
+                            {
+                                "GBQualifier_name": "identified_by",
+                                "GBQualifier_value": "J.P. Quilang, S.C.S. Yu"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Protein",
+                    "GBFeature_location": "<1..>318",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "318",
+                            "GBInterval_accession": "AJF21312.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": {
+                            "GBQualifier_name": "product",
+                            "GBQualifier_value": "recombination activation protein 2"
+                        }
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "1..312",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "312",
+                            "GBInterval_accession": "AJF21312.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "RAG2"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "Recombination activating protein 2; pfam03089"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:251721"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "15..69",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "15",
+                            "GBInterval_to": "69",
+                            "GBInterval_accession": "AJF21312.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "Kelch_3"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "Galactose oxidase, central domain; pfam13415"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:257740"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "CDS",
+                    "GBFeature_location": "1..318",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "318",
+                            "GBInterval_accession": "AJF21312.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": {
+                            "GBQualifier_name": "coded_by",
+                            "GBQualifier_value": "KJ533220.1:<1..>955"
+                        }
+                    }
+                }
+            ]
+        },
+        "GBSeq_sequence": "iahvephsenpecylihggrtpnnelssslyvlsvdsrgsnkkvtlrcqekelvgelpearyghtlsivhnrgktacvlfggrsympsaerttenwncmvdcppqiylidlefgccsahtlpeltdgqsfhlalarencvyflgghiastdcrpprlfrlrvelllgspllsceilndgisitsaiatpigpaheyiilggyqsdsqkrmlctyvtlddvgirmepreppewsseisqsrtwfggslekgsaliaipsgtnptptdayylyqlsfqqagdgedptqtcsqestdfedsapledseelyfgrephemey"
+    }
+}

@@ -1,0 +1,209 @@
+body{
+    background: #eee;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+hr{
+    height: 1px;
+    border: none;
+    background: #ddd;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.left-margin{
+    margin-left: 15px;
+}
+.top-margin{
+    margin-top: 15px;
+}
+.bottom-margin{
+    margin-bottom: 15px;
+}
+.extra-padding{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.enlarge-text{
+    font-size: 1.15rem !important;
+    line-height: 2rem;
+}
+.lighten-text{
+    font-weight: 300;
+}
+.break-word{
+    word-break: break-word;
+}
+
+.active{
+    background: #fafafa !important;
+}
+
+#scroll-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 996;
+}
+#top-border{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    z-index: 995;
+}
+.loader{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    background: #fafafa;
+}
+.preloader-wrapper{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.tooltipped{
+    cursor: pointer;
+}
+
+    .side-nav{
+        background: #eee;
+    }
+        .side-nav-header{
+            width: 240px;
+            height: 150px;
+            background-image: url("../images/others/cubes.png");
+            background-attachment: fixed;
+        }
+            .avatar{
+                width: 100px;
+                height: 100px;
+                margin: 0 auto;
+            }
+    .side-nav li{
+        width: 100%;
+        padding: 0;
+    }
+        .side-nav li a{
+            padding: 0 30px !important;
+        }
+    .button-collapse{
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        line-height: 40px;
+        cursor: pointer;
+        z-index: 996;
+    }
+ 
+    .main{
+        position: relative;
+        width: 100%;
+        padding-left: 240px;
+    }
+    
+    .section{
+        padding: 0 !important;
+    }
+        .section-header{
+            background-image: url("../images/others/cubes.png");
+            background-attachment: fixed;
+            height: 149px;
+            padding: 0 30px;
+            position: relative;
+            z-index: 995;
+        }   
+            .section-header h3{
+                margin: 0;
+                position: absolute;
+                bottom: 10px;
+                font-weight: 700;
+                text-shadow: 0 0 5px #555;
+            }
+        .section{
+            margin-bottom: 20px;
+        }
+            .section-body{
+                padding: 20px;
+                max-width: 800px;
+                width: 90%;
+                margin: 0 auto;
+            }
+                .card-panel{
+                    word-break: break-word;
+                }
+                .card-panel:last-child{
+                    margin-bottom: 0;
+                }
+                h4.col{
+                    margin-bottom: 25px;
+                }
+                    .col .card-panel{
+                        margin-bottom: 20px;
+                    }
+
+                /* skills */
+                    #skills h4{
+                        text-shadow: 0 0 5px #ccc;
+                    }
+                    .skill-icon{
+                        width: 100%;
+                        max-width: 200px;
+                    }
+
+                /* experience */
+                    .experience-avatar{
+                        width: 100px;
+                        height: 100px;
+                        text-align: center;
+                    }
+                        .experience-avatar img{
+                            height: 100%;
+                        }
+                    .experience-label{
+                        line-height: 0.75 !important;
+                    }
+                        .experience-label h5{
+                            margin-top: 0;
+                        }
+                        .collection-item p{
+                            margin: 10px 0;
+                        }
+                /* projects */
+                    .card-title{
+                        line-height: 30px !important;
+                        margin-bottom: 20px;
+                    }
+                    .card .materialboxed{
+                        width: 100%;
+                    }
+                    .card table tr *{
+                        padding: 5px;
+                    }
+
+                       
+
+@media only screen and (max-width: 992px) {
+    .section-header{
+        height: 75px;
+    }
+    
+    .main{
+        padding-left: 0;
+    }
+}
+                

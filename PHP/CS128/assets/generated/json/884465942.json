@@ -1,0 +1,168 @@
+{
+    "GBSeq": {
+        "GBSeq_locus": "AKQ22257",
+        "GBSeq_length": "213",
+        "GBSeq_moltype": "AA",
+        "GBSeq_topology": "linear",
+        "GBSeq_division": "VRT",
+        "GBSeq_update-date": "19-JUL-2015",
+        "GBSeq_create-date": "19-JUL-2015",
+        "GBSeq_definition": "cytochrome c oxidase subunit I, partial (mitochondrion) [Arius subrostratus]",
+        "GBSeq_primary-accession": "AKQ22257",
+        "GBSeq_accession-version": "AKQ22257.1",
+        "GBSeq_other-seqids": {
+            "GBSeqid": [
+                "gb|AKQ22257.1|",
+                "gi|884465942"
+            ]
+        },
+        "GBSeq_source": "mitochondrion Arius subrostratus (shovelnose sea catfish)",
+        "GBSeq_organism": "Arius subrostratus",
+        "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes; Ariidae; Arius",
+        "GBSeq_references": {
+            "GBReference": [
+                {
+                    "GBReference_reference": "1",
+                    "GBReference_position": "1..213",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Ambily,V.",
+                            "Sanu,V.F.",
+                            "Bijoy,N.S."
+                        ]
+                    },
+                    "GBReference_title": "Studies on the fishery biology and population characteristics of Arius subrostratus from a wetland in Kerala",
+                    "GBReference_journal": "Unpublished"
+                },
+                {
+                    "GBReference_reference": "2",
+                    "GBReference_position": "1..213",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Ambily,V.",
+                            "Sanu,V.F.",
+                            "Bijoy,N.S."
+                        ]
+                    },
+                    "GBReference_title": "Direct Submission",
+                    "GBReference_journal": "Submitted (23-MAR-2015) Dept. of Marine Biology, Microbiology and Biochemistry, Cochin University of Science and Technology, Ernakulam, Kochi, Kerala 682016, India"
+                }
+            ]
+        },
+        "GBSeq_source-db": "accession KR011049.1",
+        "GBSeq_feature-table": {
+            "GBFeature": [
+                {
+                    "GBFeature_key": "source",
+                    "GBFeature_location": "1..213",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "213",
+                            "GBInterval_accession": "AKQ22257.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "organism",
+                                "GBQualifier_value": "Arius subrostratus"
+                            },
+                            {
+                                "GBQualifier_name": "organelle",
+                                "GBQualifier_value": "mitochondrion"
+                            },
+                            {
+                                "GBQualifier_name": "specimen_voucher",
+                                "GBQualifier_value": "ASCHN1"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "taxon:475165"
+                            },
+                            {
+                                "GBQualifier_name": "country",
+                                "GBQualifier_value": "India"
+                            },
+                            {
+                                "GBQualifier_name": "collected_by",
+                                "GBQualifier_value": "Ambily V"
+                            },
+                            {
+                                "GBQualifier_name": "identified_by",
+                                "GBQualifier_value": "Ambily V"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Protein",
+                    "GBFeature_location": "<1..>213",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "213",
+                            "GBInterval_accession": "AKQ22257.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "product",
+                                "GBQualifier_value": "cytochrome c oxidase subunit I"
+                            },
+                            {
+                                "GBQualifier_name": "EC_number",
+                                "GBQualifier_value": "1.9.3.1"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "CDS",
+                    "GBFeature_location": "1..213",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "213",
+                            "GBInterval_accession": "AKQ22257.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "coded_by",
+                                "GBQualifier_value": "KR011049.1:<1..>639"
+                            },
+                            {
+                                "GBQualifier_name": "transl_table",
+                                "GBQualifier_value": "2"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "GBSeq_sequence": "mvgtalslliraelaqpgallgddqiynvivtahafvmiffmvmpimiggfgnwlvplmigapdmafprmnnmsfwllppsfllllassgveagagtgwtvypplagnlahagasvdltifslhlagvssilgainfittiinmkppaisqyqtplfvwailitavllllslpvlaagitmlltdrnlnttffdpagggdpilyqhlfwffgp"
+    }
+}

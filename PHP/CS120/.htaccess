@@ -1,0 +1,5 @@
+RewriteEngine on
+
+RewriteBase /old-profile/CS120/
+
+RewriteRule [Dd][Aa][Tt][Ee][Tt][Oo][Dd][Aa][Yy] DateToday

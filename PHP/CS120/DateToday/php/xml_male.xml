@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<male>
+		<dateDetails number="1" available="1">
+			<name>Brendan de Guzman</name>
+			<images>
+				<image> ./images/dates/user6/p6-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="20" available="0"> Monday 6am to 8am </sched>
+				<sched index="21" available="0"> Wednesday 4pm to 6pm </sched>
+				<sched index="22" available="1"> Thursday 8pm to 10pm </sched>
+				<sched index="23" available="1"> Friday 10am to 12nn </sched>
+			</scheds>
+			<description>
+				<About> Hey, I'm Bren. I like to fix things, if you need some fixing, just call me, I can fix your hardware any time. </About>
+				<Age> 18 </Age>
+				<Food> Chicken Hotdog </Food>
+				<Constellation> Sextans </Constellation>
+				<Quote> Honey why you calling me so late? It's kinda hard to talk right now. </Quote>
+			</description>
+			<rating>8 out of 10</rating>
+			<price>101.00</price>
+		</dateDetails>
+		
+		<dateDetails number="2" available="1">
+			<name>Marvin Joseph Occeno</name>
+			<images>
+				<image> ./images/dates/user7/p7-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="24" available="0"> Wednesday 1am to 3am</sched>
+				<sched index="25" available="0"> Thursday 10pm to 12mn </sched>
+				<sched index="26" available="1"> Friday 8pm to 10pm </sched>
+				<sched index="27" available="1"> Friday 4pm to 6pm </sched>
+			</scheds>
+			<description>
+				<About> Hello there, I'm Marvin. I like math and I would like to solve your equation. </About>
+				<Age> 18 </Age>
+				<Food> Pi </Food>
+				<Constellation> Orion </Constellation>
+				<Quote> I heard you're good in algebra. Can you substitute my x without asking y? P.S. I'd spend all my money (4 Million) just to be with you. </Quote>
+			</description>
+			<rating>3.14159 out of 10</rating>
+			<price>100.00</price>
+		</dateDetails>
+		
+		<dateDetails number="3" available="0">
+			<name>Miguel Angelo Magbitang</name>
+			<images>
+				<image> ./images/dates/user8/p8-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="28" available="0"> Monday 7am to 9am</sched>
+				<sched index="29" available="0"> Monday 10am to 12nn </sched>
+				<sched index="30" available="0"> Thursday 9pm to 11pm </sched>
+				<sched index="31" available="0"> Saturday 2pm to 4pm </sched>
+			</scheds>
+			<description>
+				<About> Hi, I'm Angelo. I like to dance, want me to teach you some moves? </About>
+				<Age> 18 </Age>
+				<Food> Rice </Food>
+				<Constellation> Octans </Constellation>
+				<Quote> Say something I'm giving up on you. </Quote>
+			</description>
+			<rating>8 out of 10</rating>
+			<price>35.00</price>
+		</dateDetails>
+		
+		<dateDetails number="4" available="0">
+			<name>Joseph Niel Tuazon</name>
+			<images>
+				<image> ./images/dates/user9/p9-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="32" available="0"> Wednesday 12mn to 1am </sched>
+				<sched index="33" available="0"> Wednesday 1am to 2am </sched>
+				<sched index="34" available="0"> Wednesday 10pm to 11pm </sched>
+				<sched index="35" available="0"> Wednesday 11pm to 12mn </sched>
+			</scheds>
+			<description>
+				<About> I'm the most interesting man in the world. </About>
+				<Age> 18 </Age>
+				<Food> Sushi </Food>
+				<Constellation> Puppis </Constellation>
+				<Quote> Another month. Another year. Another smile another tear. Another winter and another summer too. But there can never be another you. </Quote>
+			</description>
+			<rating>11 out of 10</rating>
+			<price>0.00</price>
+		</dateDetails>
+		
+		<dateDetails number="5" available="0">
+			<name>Ruahden Dang-awan</name>
+			<images>
+				<image> ./images/dates/user10/p10-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="36" available="0"> Friday 10am to 11am</sched>
+				<sched index="37" available="0"> Friday 11am to 12nn </sched>
+				<sched index="38" available="0"> Friday 12nn to 1pm</sched>
+				<sched index="39" available="0"> Friday 1pm to 2pm </sched>
+			</scheds>
+			<description>
+				<About> I like cubes with colours. </About>
+				<Age> 18 </Age>
+				<Food> Steak </Food>
+				<Constellation> Reticulum </Constellation>
+				<Quote> A day without sunshine, is like night. </Quote>
+			</description>
+			<rating>7.5 out of 10</rating>
+			<price>9.01</price>
+		</dateDetails>
+	</male>

@@ -1,0 +1,57 @@
+LOCUS       ANA53128                 263 aa            linear   INV 30-APR-2016
+DEFINITION  cytochrome oxidase subunit 1, partial (mitochondrion)
+            [Strongyloides stercoralis].
+ACCESSION   ANA53128
+VERSION     ANA53128.1  GI:1021760081
+DBSOURCE    accession KU962169.1
+KEYWORDS    .
+SOURCE      mitochondrion Strongyloides stercoralis
+  ORGANISM  Strongyloides stercoralis
+            Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+            Panagrolaimoidea; Strongyloididae; Strongyloides.
+REFERENCE   1  (residues 1 to 263)
+  AUTHORS   Laymanivong,S., Hangvanthong,B., Insisiengmay,B., Vanisaveth,V.,
+            Laxachack,P., Jongthawin,J., Sanpool,O., Thanchomnang,T.,
+            Sadaow,L., Phosuk,I., Rodpai,R., Maleewong,W. and Intapan,P.M.
+  TITLE     First molecular identification and report of genetic diversity of
+            Strongyloides stercoralis, a current major soil-transmitted
+            helminth in humans from Lao People's Democratic Republic
+  JOURNAL   Parasitol. Res. (2016) In press
+   PUBMED   27083185
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (residues 1 to 263)
+  AUTHORS   Laymanivong,S., Rodpai,R., Jongthawin,J., Sanpool,O.,
+            Thanchomnang,T., Sadaow,L., Phosuk,I., Maleewong,W. and
+            Intapan,P.M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (22-MAR-2016) Department of Parasitology, Faculty of
+            Medicine, Khon Kaen University, 123 Mittraphap Road, Khon Kaen
+            40002, Thailand
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..263
+                     /organism="Strongyloides stercoralis"
+                     /organelle="mitochondrion"
+                     /isolate="SsLS28"
+                     /isolation_source="feces"
+                     /host="Homo sapiens"
+                     /db_xref="taxon:6248"
+                     /dev_stage="adult male"
+                     /country="Laos: Champasak province"
+                     /PCR_primers="fwd_name: StrCoxAfrF, fwd_seq:
+                     gtggttttggtaattgaatggtt, rev_name: StrCoxAfrR, rev_seq:
+                     accagttataccacctatagtaa"
+     Protein         <1..>263
+                     /product="cytochrome oxidase subunit 1"
+     CDS             1..263
+                     /gene="cox1"
+                     /coded_by="KU962169.1:<1..>790"
+                     /transl_table=5
+ORIGIN      
+        1 plmlgapdms fprlnnisfw llpasiflvf lacfvdnglg tswtiyppls tsghpgssvd
+       61 laifslhlsg issilgginf mctvknlrss svslnnmslf iwtifvtvfl lvlslpvlag
+      121 aitmllidrn fngsffdpsf ggnpliyqhl fwffghpevy ililpafgii sqctlyltgk
+      181 kevfgylgmv yailsiglig cvvwahhmyt vgmdfdsray ftaatmviav ptgvkvfswl
+      241 atffgtvmvy qpllfwvmgf ifl
+//
+

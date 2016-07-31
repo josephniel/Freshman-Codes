@@ -1,0 +1,12 @@
+RewriteEngine on
+
+RewriteBase /old-profile/CS120/DateToday/
+
+RewriteRule home main.php
+RewriteRule schedules php/schedules.php
+RewriteRule dateList php/date-list.php
+RewriteRule confirm php/final.php
+RewriteRule mail php/mail.php
+
+RewriteRule Error404 php/404.php
+ErrorDocument 404 http://agila.upm.edu.ph/~jntuazon/CS120/DateToday/Error404

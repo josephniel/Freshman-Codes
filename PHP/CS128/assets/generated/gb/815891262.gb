@@ -1,0 +1,166 @@
+LOCUS       NP_001295180             501 aa            linear   PRI 13-MAY-2015
+DEFINITION  breast cancer anti-estrogen resistance protein 3 isoform 3 [Homo
+            sapiens].
+ACCESSION   NP_001295180 XP_011540554
+VERSION     NP_001295180.1  GI:815891262
+DBSOURCE    REFSEQ: accession NM_001308251.1
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 501)
+  AUTHORS   Wallez Y, Riedl SJ and Pasquale EB.
+  TITLE     Association of the breast cancer antiestrogen resistance protein 1
+            (BCAR1) and BCAR3 scaffolding proteins in cell signaling and
+            antiestrogen resistance
+  JOURNAL   J. Biol. Chem. 289 (15), 10431-10444 (2014)
+   PUBMED   24584939
+  REMARK    GeneRIF: BCAR1 and BCAR3 scaffolding proteins have roles in cell
+            signaling and antiestrogen resistance
+REFERENCE   2  (residues 1 to 501)
+  AUTHORS   Oh MJ, Yi SJ, Kim HS, Kim JH, Jeong YH, van Agthoven T and Jhun BH.
+  TITLE     Functional roles of BCAR3 in the signaling pathways of insulin
+            leading to DNA synthesis, membrane ruffling and GLUT4 translocation
+  JOURNAL   Biochem. Biophys. Res. Commun. 441 (4), 911-916 (2013)
+   PUBMED   24216110
+  REMARK    GeneRIF: Taken together, these results demonstrated that BCAR3
+            plays an important role in the signaling pathways of insulin
+            leading to cell cycle progression and cytoskeleton reorganization,
+            but not GLUT4 translocation.
+REFERENCE   3  (residues 1 to 501)
+  AUTHORS   Wilson AL, Schrecengost RS, Guerrero MS, Thomas KS and Bouton AH.
+  TITLE     Breast cancer antiestrogen resistance 3 (BCAR3) promotes cell
+            motility by regulating actin cytoskeletal and adhesion remodeling
+            in invasive breast cancer cells
+  JOURNAL   PLoS ONE 8 (6), E65678 (2013)
+   PUBMED   23762409
+  REMARK    GeneRIF: BCAR3 promotes cell motility by regulating actin
+            cytoskeletal and adhesion remodeling in invasive breast cancer
+            cells.
+            Publication Status: Online-Only
+REFERENCE   4  (residues 1 to 501)
+  AUTHORS   Makkinje A, Vanden Borre P, Near RI, Patel PS and Lerner A.
+  TITLE     Breast cancer anti-estrogen resistance 3 (BCAR3) protein augments
+            binding of the c-Src SH3 domain to Crk-associated substrate
+            (p130cas)
+  JOURNAL   J. Biol. Chem. 287 (33), 27703-27714 (2012)
+   PUBMED   22711540
+  REMARK    GeneRIF: BCAR3 expression may regulate Src signaling in a
+            BCAR3-p130(cas) complex-dependent fashion by altering the ability
+            of the Src SH3 domain to bind the p130(cas) SBD
+REFERENCE   5  (residues 1 to 501)
+  AUTHORS   Vanden Borre P, Near RI, Makkinje A, Mostoslavsky G and Lerner A.
+  TITLE     BCAR3/AND-34 can signal independent of complex formation with CAS
+            family members or the presence of p130Cas
+  JOURNAL   Cell. Signal. 23 (6), 1030-1040 (2011)
+   PUBMED   21262352
+  REMARK    GeneRIF: BCAR3-p130Cas complex formation is not required for
+            BCAR3-mediated anti-estrogen resistance, Rac activation or
+            discohesion of epithelial breast cancer cells
+REFERENCE   6  (residues 1 to 501)
+  AUTHORS   Cai D, Felekkis KN, Near RI, O'Neill GM, van Seventer JM, Golemis
+            EA and Lerner A.
+  TITLE     The GDP exchange factor AND-34 is expressed in B cells, associates
+            with HEF1, and activates Cdc42
+  JOURNAL   J. Immunol. 170 (2), 969-978 (2003)
+   PUBMED   12517963
+REFERENCE   7  (residues 1 to 501)
+  AUTHORS   Lu Y, Brush J and Stewart TA.
+  TITLE     NSP1 defines a novel family of adaptor proteins linking integrin
+            and tyrosine kinase receptors to the c-Jun N-terminal
+            kinase/stress-activated protein kinase signaling pathway
+  JOURNAL   J. Biol. Chem. 274 (15), 10047-10052 (1999)
+   PUBMED   10187783
+REFERENCE   8  (residues 1 to 501)
+  AUTHORS   van Agthoven T, van Agthoven TL, Dekker A, van der Spek PJ, Vreede
+            L and Dorssers LC.
+  TITLE     Identification of BCAR3 by a random search for genes involved in
+            antiestrogen resistance of human breast cancer cells
+  JOURNAL   EMBO J. 17 (10), 2799-2808 (1998)
+   PUBMED   9582273
+REFERENCE   9  (residues 1 to 501)
+  AUTHORS   Johnston SR.
+  TITLE     Acquired tamoxifen resistance in human breast cancer--potential
+            mechanisms and clinical implications
+  JOURNAL   Anticancer Drugs 8 (10), 911-930 (1997)
+   PUBMED   9436634
+  REMARK    Review article
+REFERENCE   10 (residues 1 to 501)
+  AUTHORS   Dorssers LC and van Agthoven T.
+  TITLE     Genetic mechanisms of estrogen-independence in breast cancer
+  JOURNAL   Pathol. Res. Pract. 192 (7), 743-751 (1996)
+   PUBMED   8880875
+  REMARK    Review article
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from AK310970.1, AY358996.1 and
+            AW470748.1.
+            On Apr 28, 2015 this sequence version replaced gi:767906295.
+            
+            Summary: Breast tumors are initially dependent on estrogens for
+            growth and progression and can be inhibited by anti-estrogens such
+            as tamoxifen. However, breast cancers progress to become
+            anti-estrogen resistant. Breast cancer anti-estrogen resistance
+            gene 3 was identified in the search for genes involved in the
+            development of estrogen resistance. The gene encodes a component of
+            intracellular signal transduction that causes estrogen-independent
+            proliferation in human breast cancer cells. The protein contains a
+            putative src homology 2 (SH2) domain, a hall mark of cellular
+            tyrosine kinase signaling molecules, and is partly homologous to
+            the cell division cycle protein CDC48. Multiple transcript variants
+            encoding different isoforms have been found for this gene.
+            [provided by RefSeq, May 2012].
+            
+            Transcript Variant: This variant (5) contains an alternate exon in
+            the 5' UTR, lacks a portion of the 5' coding region, and initiates
+            translation at a downstream start codon, compared to variant 1. The
+            encoded isoform (3) has a significantly shorter N-terminus,
+            compared to isoform 1.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AK301570.1, AY358996.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..501
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+                     /chromosome="1"
+                     /map="1p22.1"
+     Protein         1..501
+                     /product="breast cancer anti-estrogen resistance protein 3
+                     isoform 3"
+                     /note="breast cancer anti-estrogen resistance protein 3;
+                     dJ1033H22.2 (breast cancer anti-estrogen resistance 3);
+                     novel SH2-containing protein 2; SH2 domain-containing
+                     protein 3B; breast cancer antiestrogen resistance 3
+                     protein"
+                     /calculated_mol_wt=55614
+     CDS             1..501
+                     /gene="BCAR3"
+                     /gene_synonym="NSP2; SH2D3B"
+                     /coded_by="NM_001308251.1:235..1740"
+                     /note="isoform 3 is encoded by transcript variant 5"
+                     /db_xref="CCDS:CCDS76181.1"
+                     /db_xref="GeneID:8412"
+                     /db_xref="HGNC:HGNC:973"
+                     /db_xref="MIM:604704"
+ORIGIN      
+        1 mqdrralslk ahqsesylpi gcklppqssg vdtspcpnsp vfrtgsepal spavvrrvss
+       61 daragealrg sdsqlcpkpp pkpckvpflk vpsspsawln seanycelnp afatgcgrga
+      121 klpscaqgsh telltakqne apgprnsgvn ylilddddre rpwepaaaqm ekgqwdkgef
+      181 vtplletvss frpnefeskf lppenkplet amlkrakelf tnndpkviaq hvlsmdcrva
+      241 rilgvseemr rnmgvssgle litlphghql rldiierhnt maigiavdil gctgtledra
+      301 atlskiiqva velkdsmgdl ysfsalmkal empqitrlek twtalrhqyt qtailyekql
+      361 kpfskllheg restcvppnn vsvpllmplv tlmerqavtf egtdmweknd qsceimlnhl
+      421 atarfmaeaa dsyrmnaeri lagfqpdeem neicktefqm rllwgskgaq vnqteryekf
+      481 nqiltalsrk lepppvkqae l
+//
+

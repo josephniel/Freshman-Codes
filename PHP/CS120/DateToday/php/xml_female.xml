@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<female>
+		<dateDetails number="1" available="0">
+			<name>Krizia Faith Ilaga</name>
+			<images>
+				<image> ./images/dates/user1/p1-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="0" available="0"> Monday 6am to 8 am</sched>
+				<sched index="1" available="0"> Tuesday 10am to 12nn </sched>
+				<sched index="2" available="0"> Thursday 2pm to 5pm </sched>
+				<sched index="3" available="0"> Friday 10pm to 12mn</sched>
+			</scheds>
+			<description>
+				<About> Hi, I'm Krizia. I like to go on ADventures, do you want to have one with me? </About>
+				<Age> 18 </Age>
+				<Food> Sausage </Food>
+				<Constellation> Big Dipper </Constellation>
+				<Quote> Bigger is better </Quote>
+			</description>
+			<rating>9 out of 1000</rating>
+			<price>50.00</price>
+		</dateDetails>
+		
+		<dateDetails number="2" available="0">
+			<name>Ma. Isabella Dominique Inosantos</name>
+			<images>
+				<image> ./images/dates/user2/p2-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="4" available="0"> Sunday 4am to 6am </sched>
+				<sched index="5" available="0"> Wednesday 7pm to 9pm </sched>
+				<sched index="6" available="0"> Thursday 1pm to 3pm </sched>
+				<sched index="7" available="0"> Saturday 7am to 9am </sched>
+			</scheds>
+			<description>
+				<About> Hi, I'm Dom. I like to sing. Want me to read your notes? </About>
+				<Age> 18 </Age>
+				<Food> Longganisa </Food>
+				<Constellation> Small Dipper </Constellation>
+				<Quote> I'm leaving on a JET plane. Don't know when I'll be back again. </Quote>
+			</description>
+			<rating>7.5 out of 10</rating>
+			<price>0.99</price>
+		</dateDetails>
+		
+		<dateDetails number="3" available="0">
+			<name>Evangeline Louise Carandang</name>
+			<images>
+				<image> ./images/dates/user3/p3-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="8" available="0"> Sunday 1am to 4 am </sched>
+				<sched index="9" available="0"> Monday 7am to 10 am </sched>
+				<sched index="10" available="0"> Thursday 9pm to 10pm </sched>
+				<sched index="11" available="0"> Friday 11pm to 12mn </sched>
+			</scheds>
+			<description>
+				<About> Hi! I'm Eva. I like to ride the bus. Can I ride with you? </About>
+				<Age> 18 </Age>
+				<Food> Sleeping pills </Food>
+				<Constellation> Libra </Constellation>
+				<Quote> The wheels on the bus go round and round. </Quote>
+			</description>
+			<rating>7.5 out of 10</rating>
+			<price>2.00</price>
+		</dateDetails>
+		
+		<dateDetails number="4" available="0">
+			<name>Earl Andrea Abad</name>
+			<images>
+				<image> ./images/dates/user4/p4-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="12" available="0"> Sunday 2pm to 3pm </sched>
+				<sched index="13" available="0"> Tuesday 9pm to 11pm </sched>
+				<sched index="14" available="0"> Thursday 5am to 7 am </sched>
+				<sched index="15" available="0"> Wednesday 5pm to 7pm </sched>
+			</scheds>
+			<description>
+				<About> Hello there! I'm Andrea. I like green green grass. </About>
+				<Age> 18 </Age>
+				<Food> Basil </Food>
+				<Constellation> Bootes </Constellation>
+				<Quote> Laughter is always the best medicine.. unless you have diarrhea. </Quote>
+			</description>
+			<rating>2 out of 10</rating>
+			<price>72.00</price>
+		</dateDetails>
+
+		<dateDetails number="5" available="0">
+			<name>Christine Joyce Arzadon</name>
+			<images>
+				<image> ./images/dates/user5/p5-0.jpg </image>
+			</images>
+			<scheds>
+				<sched index="16" available="0"> Sunday 1am to 3 am </sched>
+				<sched index="17" available="0"> Monday 10m to 12mn </sched>
+				<sched index="18" available="0"> Tuesday 8am to 10am </sched>
+				<sched index="19" available="0"> Friday 9pm to 10pm </sched>
+			</scheds>
+			<description>
+				<About> Yow peep! I'm Joyce. Are you good at math? 'coz I need some help. Can you solve my equation? </About>
+				<Age> 18 </Age>
+				<Food> French Fries </Food>
+				<Constellation> Scutum </Constellation>
+				<Quote> I can't explain why I always want to find you. When I wake up, you're on my mind, you're my date in my dreams because I love you. </Quote>
+			</description>
+			<rating>3.14159 out of 10</rating>
+			<price>1000000.00</price>
+		</dateDetails>
+	</female>

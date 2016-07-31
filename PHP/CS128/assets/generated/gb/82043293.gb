@@ -1,0 +1,72 @@
+LOCUS       MATRX_TUPVT              200 aa            linear   VRL 29-APR-2015
+DEFINITION  RecName: Full=Matrix protein.
+ACCESSION   Q4VKV5
+VERSION     Q4VKV5.1  GI:82043293
+DBSOURCE    UniProtKB: locus MATRX_TUPVT, accession Q4VKV5;
+            class: standard.
+            created: Mar 4, 2015.
+            sequence updated: Jul 5, 2005.
+            annotation updated: Apr 29, 2015.
+            xrefs: AY840978.1, AAX47599.1
+            xrefs (non-sequence databases): Proteomes:UP000029771, GO:0044200,
+            GO:0019031, GO:0055036, GO:0039660, GO:0039702, GO:0019076,
+            InterPro:IPR009397, Pfam:PF06326
+KEYWORDS    Complete proteome; Host membrane; Host nucleus; Host-virus
+            interaction; Membrane; Reference proteome; Viral budding; Viral
+            budding via the host ESCRT complexes; Viral matrix protein; Virion;
+            Virus exit from host cell.
+SOURCE      Tupaia virus isolate Tupaia/Thailand/-/1986
+  ORGANISM  Tupaia virus isolate Tupaia/Thailand/-/1986
+            Viruses; ssRNA viruses; ssRNA negative-strand viruses;
+            Mononegavirales; Rhabdoviridae; Tupavirus.
+REFERENCE   1  (residues 1 to 200)
+  AUTHORS   Springfeld,C., Darai,G. and Cattaneo,R.
+  TITLE     Characterization of the Tupaia rhabdovirus genome reveals a long
+            open reading frame overlapping with P and a novel gene encoding a
+            small hydrophobic protein
+  JOURNAL   J. Virol. 79 (11), 6781-6790 (2005)
+   PUBMED   15890917
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC RNA].
+COMMENT     [FUNCTION] Plays a major role in assembly and budding of virion, by
+            recruiting cellular partners of the ESCRT complexes that play a key
+            role in releasing the budding particle from the host membrane.
+            Condensates the ribonucleocapsid core during virus assembly.
+            {ECO:0000250|UniProtKB:P03519}.
+            [SUBUNIT] Homomultimer. Interacts with viral nucleocapsid.
+            {ECO:0000250|UniProtKB:P03519}.
+            [SUBCELLULAR LOCATION] Virion membrane
+            {ECO:0000250|UniProtKB:P03519}; Peripheral membrane protein
+            {ECO:0000250|UniProtKB:P03519}. Host endomembrane system
+            {ECO:0000250|UniProtKB:P03519}; Peripheral membrane protein
+            {ECO:0000250|UniProtKB:P03519}. Host nucleus membrane
+            {ECO:0000250|UniProtKB:P03519}; Peripheral membrane protein
+            {ECO:0000250|UniProtKB:P03519}.
+FEATURES             Location/Qualifiers
+     source          1..200
+                     /organism="Tupaia virus isolate Tupaia/Thailand/-/1986"
+                     /host="Tupaia"
+                     /db_xref="taxon:1560034"
+     gene            1..200
+                     /gene="M"
+     Protein         1..200
+                     /gene="M"
+                     /product="Matrix protein"
+                     /UniProtKB_evidence="Inferred from homology"
+     Region          1..200
+                     /gene="M"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Matrix protein. /FTId=PRO_0000432062."
+     Region          2..199
+                     /gene="M"
+                     /region_name="Vesiculo_matrix"
+                     /note="Vesiculovirus matrix protein; pfam06326"
+                     /db_xref="CDD:253678"
+ORIGIN      
+        1 mlrwfsfgsn egsevagngw svkpignmsi kkddpvgfpq gyqcllkvii qlekkdptks
+       61 dvseliagwv krysgphlle rlikaliilt vpklsrenid nhvklgglfe gqvtfhfssr
+      121 dliptkylsy atsirttvkg iysylsieae lnpsshqgts vakllrasdv akyydntlqs
+      181 ifsqfeiknv titddqiifn
+//
+

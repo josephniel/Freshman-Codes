@@ -1,0 +1,186 @@
+{
+    "GBSeq": {
+        "GBSeq_locus": "AJF21341",
+        "GBSeq_length": "472",
+        "GBSeq_moltype": "AA",
+        "GBSeq_topology": "linear",
+        "GBSeq_division": "VRT",
+        "GBSeq_update-date": "31-MAR-2015",
+        "GBSeq_create-date": "31-MAR-2015",
+        "GBSeq_definition": "recombination activation protein 1, partial [Arius dispar]",
+        "GBSeq_primary-accession": "AJF21341",
+        "GBSeq_accession-version": "AJF21341.1",
+        "GBSeq_other-seqids": {
+            "GBSeqid": [
+                "gb|AJF21341.1|",
+                "gi|749406410"
+            ]
+        },
+        "GBSeq_source": "Arius dispar",
+        "GBSeq_organism": "Arius dispar",
+        "GBSeq_taxonomy": "Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi; Actinopterygii; Neopterygii; Teleostei; Ostariophysi; Siluriformes; Ariidae; Arius",
+        "GBSeq_references": {
+            "GBReference": [
+                {
+                    "GBReference_reference": "1",
+                    "GBReference_position": "1..472",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Yu,S.C.S.",
+                            "Quilang,J.P."
+                        ]
+                    },
+                    "GBReference_title": "Molecular Phylogeny of Native and Introduced Catfishes in the Philippines",
+                    "GBReference_journal": "Unpublished"
+                },
+                {
+                    "GBReference_reference": "2",
+                    "GBReference_position": "1..472",
+                    "GBReference_authors": {
+                        "GBAuthor": [
+                            "Yu,S.C.S.",
+                            "Quilang,J.P."
+                        ]
+                    },
+                    "GBReference_title": "Direct Submission",
+                    "GBReference_journal": "Submitted (28-FEB-2014) Institute of Biology, University of the Philippines, Diliman, Quezon City, Metro Manila 1101, Philippines"
+                }
+            ]
+        },
+        "GBSeq_comment": "##Assembly-Data-START## Sequencing Technology Sanger dideoxy sequencing ##Assembly-Data-END##",
+        "GBSeq_source-db": "accession KJ533267.1",
+        "GBSeq_feature-table": {
+            "GBFeature": [
+                {
+                    "GBFeature_key": "source",
+                    "GBFeature_location": "1..472",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "472",
+                            "GBInterval_accession": "AJF21341.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "organism",
+                                "GBQualifier_value": "Arius dispar"
+                            },
+                            {
+                                "GBQualifier_name": "isolate",
+                                "GBQualifier_value": "TRAd2"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "taxon:943112"
+                            },
+                            {
+                                "GBQualifier_name": "country",
+                                "GBQualifier_value": "Philippines"
+                            },
+                            {
+                                "GBQualifier_name": "lat_lon",
+                                "GBQualifier_value": "14 N 121 E"
+                            },
+                            {
+                                "GBQualifier_name": "collection_date",
+                                "GBQualifier_value": "06-Jan-2013"
+                            },
+                            {
+                                "GBQualifier_name": "collected_by",
+                                "GBQualifier_value": "J.P. Quilang, S.C.S. Yu"
+                            },
+                            {
+                                "GBQualifier_name": "identified_by",
+                                "GBQualifier_value": "J.P. Quilang, S.C.S. Yu"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "Protein",
+                    "GBFeature_location": "<1..>472",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "472",
+                            "GBInterval_accession": "AJF21341.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": {
+                            "GBQualifier_name": "product",
+                            "GBQualifier_value": "recombination activation protein 1"
+                        }
+                    }
+                },
+                {
+                    "GBFeature_key": "Region",
+                    "GBFeature_location": "3..446",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "3",
+                            "GBInterval_to": "446",
+                            "GBInterval_accession": "AJF21341.1"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": [
+                            {
+                                "GBQualifier_name": "region_name",
+                                "GBQualifier_value": "RAG1"
+                            },
+                            {
+                                "GBQualifier_name": "note",
+                                "GBQualifier_value": "Recombination-activation protein 1 (RAG1); pfam12940"
+                            },
+                            {
+                                "GBQualifier_name": "db_xref",
+                                "GBQualifier_value": "CDD:193413"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "GBFeature_key": "CDS",
+                    "GBFeature_location": "1..472",
+                    "GBFeature_intervals": {
+                        "GBInterval": {
+                            "GBInterval_from": "1",
+                            "GBInterval_to": "472",
+                            "GBInterval_accession": "AJF21341.1"
+                        }
+                    },
+                    "GBFeature_partial5": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_partial3": {
+                        "@attributes": {
+                            "value": "true"
+                        }
+                    },
+                    "GBFeature_quals": {
+                        "GBQualifier": {
+                            "GBQualifier_name": "coded_by",
+                            "GBQualifier_value": "KJ533267.1:<1..>1418"
+                        }
+                    }
+                }
+            ]
+        },
+        "GBSeq_sequence": "kellpgfhqfewqpalknvsnscnigiidglsgwtasvddvpadtitrrfrydvalvsalkdleedimeglrergfddstctsgftvvikescdgmgdvsekhgggpavpekavrfsftvmsitiqvegeeeavtifqeqkpnselscrplclmfvdesdhemltailgpvvaerkamkesrlilsigglqrsfrfyfrstgydekmvrdmegleasgstyictlcdstraeasqnmvlhsitrshdenleryeiwrtnpfsesaeelrdrvkgvsakpfmetqptldalhcdignatefykifqdeiaevylnnnptreerrrwrsvldkqlrkklklkpvmrmngnyarrlmtreavevvcelvpleqrrealkelmelyiqmkpvwrstcpaqdcpdqlcrysfnsqrfaellsttfkyrydgkitnyfhktlahvpeiverdgsigawasegnesgnklfrrfrkmna"
+    }
+}

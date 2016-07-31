@@ -1,0 +1,1688 @@
+LOCUS       NLRP3_HUMAN             1036 aa            linear   PRI 09-DEC-2015
+DEFINITION  RecName: Full=NACHT, LRR and PYD domains-containing protein 3;
+            AltName: Full=Angiotensin/vasopressin receptor AII/AVP-like;
+            AltName: Full=Caterpiller protein 1.1; Short=CLR1.1; AltName:
+            Full=Cold-induced autoinflammatory syndrome 1 protein; AltName:
+            Full=Cryopyrin; AltName: Full=PYRIN-containing APAF1-like protein
+            1.
+ACCESSION   Q96P20
+VERSION     Q96P20.3  GI:262527566
+DBSOURCE    UniProtKB: locus NLRP3_HUMAN, accession Q96P20;
+            class: standard.
+            extra
+            accessions:A0A024R5Q0,B2RC97,B7ZKS9,B7ZKT2,B7ZKT3,O75434,Q17RS2,
+            Q59H68,Q5JQS8,Q5JQS9,Q6TG35,Q8TCW0,Q8TEU9,Q8WXH9
+            created: May 2, 2002.
+            sequence updated: Nov 3, 2009.
+            annotation updated: Dec 9, 2015.
+            xrefs: AF410477.1, AAL33908.1, AF427617.1, AAL33911.1, AY051117.1,
+            AAL12497.1, AY051112.1, AY051113.1, AY051114.1, AY051115.1,
+            AY051116.1, AY056059.1, AY056060.1, AAL12498.1, AF468522.1,
+            AAL78632.1, AF420469.1, AAL65136.1, AY092033.1, AAM14669.1,
+            AF418985.2, AAL14640.2, AK314998.1, BAG37494.1, AB208891.1,
+            BAD92128.1, AC104335.2, AL606804.11, CH471148.1, EAW77184.1,
+            EAW77186.1, BC117211.1, AAI17212.1, BC143359.1, AAI43360.1,
+            BC143362.1, AAI43363.1, BC143363.1, AAI43364.1, AY422168.1,
+            AAQ98889.1, AF054176.1, AAC39910.1, NP_001073289.1, NP_001120933.1,
+            NP_001120934.1, NP_001230062.1, NP_004886.3, NP_899632.1,
+            XP_005273093.1, XP_005273094.1, XP_011542350.1, XP_011542351.1,
+            XP_011542352.1, XP_011542353.1, XP_011542354.1, XP_011542356.1,
+            3QF2_A, 3QF2_B
+            xrefs (non-sequence databases): CCDS:CCDS1632.1, CCDS:CCDS1633.1,
+            CCDS:CCDS44346.1, CCDS:CCDS44347.1, UniGene:Hs.159483, PDBsum:3QF2,
+            ProteinModelPortal:Q96P20, SMR:Q96P20, BioGrid:125319,
+            DIP:DIP-41153N, IntAct:Q96P20, MINT:MINT-230535,
+            STRING:9606.ENSP00000337383, ChEMBL:CHEMBL1741208,
+            GuidetoPHARMACOLOGY:1770, PhosphoSite:Q96P20, BioMuta:NLRP3,
+            DMDM:262527566, PaxDb:Q96P20, PRIDE:Q96P20,
+            Ensembl:ENST00000336119, Ensembl:ENSP00000337383,
+            Ensembl:ENSG00000162711, Ensembl:ENST00000348069,
+            Ensembl:ENSP00000294752, Ensembl:ENST00000366496,
+            Ensembl:ENSP00000355452, Ensembl:ENST00000366497,
+            Ensembl:ENSP00000355453, Ensembl:ENST00000391827,
+            Ensembl:ENSP00000375703, Ensembl:ENST00000391828,
+            Ensembl:ENSP00000375704, GeneID:114548, KEGG:hsa:114548,
+            UCSC:uc001icr.3, UCSC:uc001ics.3, UCSC:uc001icv.3, UCSC:uc001icw.3,
+            CTD:114548, GeneCards:NLRP3, HGNC:HGNC:16400, HPA:CAB009190,
+            HPA:HPA012878, HPA:HPA017374, MalaCards:NLRP3, MIM:120100,
+            MIM:191900, MIM:606416, MIM:607115, neXtProt:NX_Q96P20,
+            Orphanet:93365, Orphanet:47045, Orphanet:575, PharmGKB:PA26512,
+            eggNOG:ENOG410IE5X, eggNOG:ENOG4111H3D,
+            GeneTree:ENSGT00820000126959, HOVERGEN:HBG063656,
+            InParanoid:Q96P20, KO:K12800, OMA:NCHRVES, OrthoDB:EOG7P5T07,
+            PhylomeDB:Q96P20, TreeFam:TF340267, Reactome:R-HSA-844456,
+            GeneWiki:NALP3, GenomeRNAi:114548, NextBio:35481188, PRO:PR:Q96P20,
+            Proteomes:UP000005640, Bgee:Q96P20, ExpressionAtlas:Q96P20,
+            Genevisible:Q96P20, GO:0005737, GO:0005829, GO:0005783, GO:0005576,
+            GO:0072559, GO:0005634, GO:0005524, GO:0042834, GO:0043565,
+            GO:0008134, GO:0006919, GO:0006915, GO:0071222, GO:0006952,
+            GO:0051607, GO:0009595, GO:0006954, GO:0045087, GO:0032611,
+            GO:0050701, GO:0032621, GO:0002674, GO:0050728, GO:0050713,
+            GO:0042347, GO:0032088, GO:0044546, GO:0035872, GO:0043280,
+            GO:0050718, GO:0032753, GO:0051092, GO:2000553, GO:0045630,
+            GO:0045944, GO:0002830, GO:0051259, GO:0007165, GO:0006351,
+            Gene3D:1.10.533.10, InterPro:IPR004020, InterPro:IPR011029,
+            InterPro:IPR003590, InterPro:IPR007111, InterPro:IPR029495,
+            InterPro:IPR027417, Pfam:PF14484, Pfam:PF02758, SMART:SM00368,
+            SUPFAM:SSF47986, SUPFAM:SSF52540, PROSITE:PS50824, PROSITE:PS50837
+KEYWORDS    3D-structure; Activator; Alternative splicing; Amyloidosis;
+            ATP-binding; Complete proteome; Cytoplasm; Deafness; Disease
+            mutation; Disulfide bond; Endoplasmic reticulum; Immunity;
+            Inflammasome; Inflammatory response; Innate immunity; Leucine-rich
+            repeat; Nucleotide-binding; Nucleus; Reference proteome; Repeat;
+            Secreted; Transcription; Transcription regulation; Ubl conjugation.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (residues 1 to 1036)
+  AUTHORS   Hoffman,H.M., Mueller,J.L., Broide,D.H., Wanderer,A.A. and
+            Kolodner,R.D.
+  TITLE     Mutation of a new gene encoding a putative pyrin-like protein
+            causes familial cold autoinflammatory syndrome and Muckle-Wells
+            syndrome
+  JOURNAL   Nat. Genet. 29 (3), 301-305 (2001)
+   PUBMED   11687797
+  REMARK    NUCLEOTIDE SEQUENCE [GENOMIC DNA / MRNA] (ISOFORMS 1 AND 2),
+            VARIANTS FCAS1 MET-200; VAL-441 AND GLY-629, AND VARIANT MWS
+            VAL-354.
+REFERENCE   2  (residues 1 to 1036)
+  AUTHORS   Aganna,E., Martinon,F., Hawkins,P.N., Ross,J.B., Swan,D.C.,
+            Booth,D.R., Lachmann,H.J., Bybee,A., Gaudet,R., Woo,P.,
+            Feighery,C., Cotter,F.E., Thome,M., Hitman,G.A., Tschopp,J. and
+            McDermott,M.F.
+  TITLE     Association of mutations in the NALP3/CIAS1/PYPAF1 gene with a
+            broad phenotype including recurrent fever, cold sensitivity,
+            sensorineural deafness, and AA amyloidosis
+  JOURNAL   Arthritis Rheum. 46 (9), 2445-2452 (2002)
+   PUBMED   12355493
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1; 2 AND 3), VARIANT MWS
+            MET-200, AND VARIANTS FCAS1/MWS TRP-262 AND PRO-307.
+            Erratum:[Arthritis Rheum 2002 Dec;46(12):3398]
+REFERENCE   3  (residues 1 to 1036)
+  AUTHORS   Manji,G.A., Wang,L., Geddes,B.J., Brown,M., Merriam,S.,
+            Al-Garawi,A., Mak,S., Lora,J.M., Briskin,M., Jurman,M., Cao,J.,
+            DiStefano,P.S. and Bertin,J.
+  TITLE     PYPAF1, a PYRIN-containing Apaf1-like protein that assembles with
+            ASC and regulates activation of NF-kappa B
+  JOURNAL   J. Biol. Chem. 277 (13), 11570-11575 (2002)
+   PUBMED   11786556
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] (ISOFORM 2), INTERACTION WITH PYCARD,
+            SUBCELLULAR LOCATION, TISSUE SPECIFICITY, AND AUTOINHIBITION.
+REFERENCE   4  (residues 1 to 1036)
+  AUTHORS   Ota,T., Suzuki,Y., Nishikawa,T., Otsuki,T., Sugiyama,T., Irie,R.,
+            Wakamatsu,A., Hayashi,K., Sato,H., Nagai,K., Kimura,K., Makita,H.,
+            Sekine,M., Obayashi,M., Nishi,T., Shibahara,T., Tanaka,T.,
+            Ishii,S., Yamamoto,J., Saito,K., Kawai,Y., Isono,Y., Nakamura,Y.,
+            Nagahari,K., Murakami,K., Yasuda,T., Iwayanagi,T., Wagatsuma,M.,
+            Shiratori,A., Sudo,H., Hosoiri,T., Kaku,Y., Kodaira,H., Kondo,H.,
+            Sugawara,M., Takahashi,M., Kanda,K., Yokoi,T., Furuya,T.,
+            Kikkawa,E., Omura,Y., Abe,K., Kamihara,K., Katsuta,N., Sato,K.,
+            Tanikawa,M., Yamazaki,M., Ninomiya,K., Ishibashi,T., Yamashita,H.,
+            Murakawa,K., Fujimori,K., Tanai,H., Kimata,M., Watanabe,M.,
+            Hiraoka,S., Chiba,Y., Ishida,S., Ono,Y., Takiguchi,S., Watanabe,S.,
+            Yosida,M., Hotuta,T., Kusano,J., Kanehori,K., Takahashi-Fujii,A.,
+            Hara,H., Tanase,T.O., Nomura,Y., Togiya,S., Komai,F., Hara,R.,
+            Takeuchi,K., Arita,M., Imose,N., Musashino,K., Yuuki,H., Oshima,A.,
+            Sasaki,N., Aotsuka,S., Yoshikawa,Y., Matsunawa,H., Ichihara,T.,
+            Shiohata,N., Sano,S., Moriya,S., Momiyama,H., Satoh,N., Takami,S.,
+            Terashima,Y., Suzuki,O., Nakagawa,S., Senoh,A., Mizoguchi,H.,
+            Goto,Y., Shimizu,F., Wakebe,H., Hishigaki,H., Watanabe,T.,
+            Sugiyama,A., Takemoto,M., Kawakami,B., Yamazaki,M., Watanabe,K.,
+            Kumagai,A., Itakura,S., Fukuzumi,Y., Fujimori,Y., Komiyama,M.,
+            Tashiro,H., Tanigami,A., Fujiwara,T., Ono,T., Yamada,K., Fujii,Y.,
+            Ozaki,K., Hirao,M., Ohmori,Y., Kawabata,A., Hikiji,T., Kobatake,N.,
+            Inagaki,H., Ikema,Y., Okamoto,S., Okitani,R., Kawakami,T.,
+            Noguchi,S., Itoh,T., Shigeta,K., Senba,T., Matsumura,K.,
+            Nakajima,Y., Mizuno,T., Morinaga,M., Sasaki,M., Togashi,T.,
+            Oyama,M., Hata,H., Watanabe,M., Komatsu,T., Mizushima-Sugano,J.,
+            Satoh,T., Shirai,Y., Takahashi,Y., Nakagawa,K., Okumura,K.,
+            Nagase,T., Nomura,N., Kikuchi,H., Masuho,Y., Yamashita,R.,
+            Nakai,K., Yada,T., Nakamura,Y., Ohara,O., Isogai,T. and Sugano,S.
+  TITLE     Complete sequencing and characterization of 21,243 full-length
+            human cDNAs
+  JOURNAL   Nat. Genet. 36 (1), 40-45 (2004)
+   PUBMED   14702039
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 1).;
+            TISSUE=Brain
+REFERENCE   5  (residues 1 to 1036)
+  AUTHORS   Totoki,Y., Toyoda,A., Takeda,T., Sakaki,Y., Tanaka,A., Yokoyama,S.,
+            Ohara,O., Nagase,T. and Kikuno,R.F.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-MAR-2005)
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 5).;
+            TISSUE=Brain
+REFERENCE   6  (residues 1 to 1036)
+  AUTHORS   Gregory,S.G., Barlow,K.F., McLay,K.E., Kaul,R., Swarbreck,D.,
+            Dunham,A., Scott,C.E., Howe,K.L., Woodfine,K., Spencer,C.C.,
+            Jones,M.C., Gillson,C., Searle,S., Zhou,Y., Kokocinski,F.,
+            McDonald,L., Evans,R., Phillips,K., Atkinson,A., Cooper,R.,
+            Jones,C., Hall,R.E., Andrews,T.D., Lloyd,C., Ainscough,R.,
+            Almeida,J.P., Ambrose,K.D., Anderson,F., Andrew,R.W., Ashwell,R.I.,
+            Aubin,K., Babbage,A.K., Bagguley,C.L., Bailey,J., Beasley,H.,
+            Bethel,G., Bird,C.P., Bray-Allen,S., Brown,J.Y., Brown,A.J.,
+            Buckley,D., Burton,J., Bye,J., Carder,C., Chapman,J.C., Clark,S.Y.,
+            Clarke,G., Clee,C., Cobley,V., Collier,R.E., Corby,N.,
+            Coville,G.J., Davies,J., Deadman,R., Dunn,M., Earthrowl,M.,
+            Ellington,A.G., Errington,H., Frankish,A., Frankland,J., French,L.,
+            Garner,P., Garnett,J., Gay,L., Ghori,M.R., Gibson,R., Gilby,L.M.,
+            Gillett,W., Glithero,R.J., Grafham,D.V., Griffiths,C.,
+            Griffiths-Jones,S., Grocock,R., Hammond,S., Harrison,E.S., Hart,E.,
+            Haugen,E., Heath,P.D., Holmes,S., Holt,K., Howden,P.J., Hunt,A.R.,
+            Hunt,S.E., Hunter,G., Isherwood,J., James,R., Johnson,C.,
+            Johnson,D., Joy,A., Kay,M., Kershaw,J.K., Kibukawa,M.,
+            Kimberley,A.M., King,A., Knights,A.J., Lad,H., Laird,G., Lawlor,S.,
+            Leongamornlert,D.A., Lloyd,D.M., Loveland,J., Lovell,J., Lush,M.J.,
+            Lyne,R., Martin,S., Mashreghi-Mohammadi,M., Matthews,L.,
+            Matthews,N.S., McLaren,S., Milne,S., Mistry,S., Moore,M.J.,
+            Nickerson,T., O'Dell,C.N., Oliver,K., Palmeiri,A., Palmer,S.A.,
+            Parker,A., Patel,D., Pearce,A.V., Peck,A.I., Pelan,S., Phelps,K.,
+            Phillimore,B.J., Plumb,R., Rajan,J., Raymond,C., Rouse,G.,
+            Saenphimmachak,C., Sehra,H.K., Sheridan,E., Shownkeen,R., Sims,S.,
+            Skuce,C.D., Smith,M., Steward,C., Subramanian,S., Sycamore,N.,
+            Tracey,A., Tromans,A., Van Helmond,Z., Wall,M., Wallis,J.M.,
+            White,S., Whitehead,S.L., Wilkinson,J.E., Willey,D.L., Williams,H.,
+            Wilming,L., Wray,P.W., Wu,Z., Coulson,A., Vaudin,M., Sulston,J.E.,
+            Durbin,R., Hubbard,T., Wooster,R., Dunham,I., Carter,N.P.,
+            McVean,G., Ross,M.T., Harrow,J., Olson,M.V., Beck,S., Rogers,J.,
+            Bentley,D.R., Banerjee,R., Bryant,S.P., Burford,D.C., Burrill,W.D.,
+            Clegg,S.M., Dhami,P., Dovey,O., Faulkner,L.M., Gribble,S.M.,
+            Langford,C.F., Pandian,R.D., Porter,K.M. and Prigmore,E.
+  TITLE     The DNA sequence and biological annotation of human chromosome 1
+  JOURNAL   Nature 441 (7091), 315-321 (2006)
+   PUBMED   16710414
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+            Erratum:[Nature. 2006 Oct 26;443(7114):1013. Banerjee, R [added];
+            Bryant, SP [added]; Burford, DC [added]; Burrill, WDH [added];
+            Clegg, SM [added]; Dhami, P [added]; Dovey, O [added]; Faulkner, LM
+            [added]; Gribble, SM [added]; Langford, CF [added]; Pandian, RD
+            [added]; Porter, KM [added]; Prigmore, E [added]]
+REFERENCE   7  (residues 1 to 1036)
+  AUTHORS   Mural,R.J., Istrail,S., Sutton,G.G., Florea,L., Halpern,A.L.,
+            Mobarry,C.M., Lippert,R., Walenz,B., Shatkay,H., Dew,I.,
+            Miller,J.R., Flanigan,M.J., Edwards,N.J., Bolanos,R., Fasulo,D.,
+            Halldorsson,B.V., Hannenhalli,S., Turner,R., Yooseph,S., Lu,F.,
+            Nusskern,D.R., Shue,B.C., Zheng,X.H., Zhong,F., Delcher,A.L.,
+            Huson,D.H., Kravitz,S.A., Mouchard,L., Reinert,K., Remington,K.A.,
+            Clark,A.G., Waterman,M.S., Eichler,E.E., Adams,M.D.,
+            Hunkapiller,M.W., Myers,E.W. and Venter,J.C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (??-JUL-2005)
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+REFERENCE   8  (residues 1 to 1036)
+  AUTHORS   Gerhard,D.S., Wagner,L., Feingold,E.A., Shenmen,C.M., Grouse,L.H.,
+            Schuler,G., Klein,S.L., Old,S., Rasooly,R., Good,P., Guyer,M.,
+            Peck,A.M., Derge,J.G., Lipman,D., Collins,F.S., Jang,W., Sherry,S.,
+            Feolo,M., Misquitta,L., Lee,E., Rotmistrovsky,K., Greenhut,S.F.,
+            Schaefer,C.F., Buetow,K., Bonner,T.I., Haussler,D., Kent,J.,
+            Kiekhaus,M., Furey,T., Brent,M., Prange,C., Schreiber,K.,
+            Shapiro,N., Bhat,N.K., Hopkins,R.F., Hsie,F., Driscoll,T.,
+            Soares,M.B., Casavant,T.L., Scheetz,T.E., Brown-stein,M.J.,
+            Usdin,T.B., Toshiyuki,S., Carninci,P., Piao,Y., Dudekula,D.B.,
+            Ko,M.S., Kawakami,K., Suzuki,Y., Sugano,S., Gruber,C.E.,
+            Smith,M.R., Simmons,B., Moore,T., Waterman,R., Johnson,S.L.,
+            Ruan,Y., Wei,C.L., Mathavan,S., Gunaratne,P.H., Wu,J., Garcia,A.M.,
+            Hulyk,S.W., Fuh,E., Yuan,Y., Sneed,A., Kowis,C., Hodgson,A.,
+            Muzny,D.M., McPherson,J., Gibbs,R.A., Fahey,J., Helton,E.,
+            Ketteman,M., Madan,A., Rodrigues,S., Sanchez,A., Whiting,M.,
+            Madari,A., Young,A.C., Wetherby,K.D., Granite,S.J., Kwong,P.N.,
+            Brinkley,C.P., Pearson,R.L., Bouffard,G.G., Blakesly,R.W.,
+            Green,E.D., Dickson,M.C., Rodriguez,A.C., Grimwood,J., Schmutz,J.,
+            Myers,R.M., Butterfield,Y.S., Griffith,M., Griffith,O.L.,
+            Krzywinski,M.I., Liao,N., Morin,R., Palmquist,D., Petrescu,A.S.,
+            Skalska,U., Smailus,D.E., Stott,J.M., Schnerch,A., Schein,J.E.,
+            Jones,S.J., Holt,R.A., Baross,A., Marra,M.A., Clifton,S.,
+            Makowski,K.A., Bosak,S. and Malek,J.
+  CONSRTM   MGC Project Team
+  TITLE     The status, quality, and expansion of the NIH full-length cDNA
+            project: the Mammalian Gene Collection (MGC)
+  JOURNAL   Genome Res. 14 (10B), 2121-2127 (2004)
+   PUBMED   15489334
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORMS 2; 4 AND 6).;
+            TISSUE=Colon
+            Erratum:[Genome Res. 2006 Jun;16(6):804. Morrin, Ryan [corrected to
+            Morin, Ryan]]
+REFERENCE   9  (residues 1 to 1036)
+  AUTHORS   O'Connor,W. Jr., Harton,J.A., Zhu,X., Linhoff,M.W. and Ting,J.P.
+  TITLE     Cutting edge: CIAS1/cryopyrin/PYPAF1/NALP3/CATERPILLER 1.1 is an
+            inducible inflammatory mediator with NF-kappa B suppressive
+            properties
+  JOURNAL   J. Immunol. 171 (12), 6329-6333 (2003)
+   PUBMED   14662828
+  REMARK    NUCLEOTIDE SEQUENCE [MRNA] OF 2-1036 (ISOFORM 4), ALTERNATIVE
+            SPLICING (ISOFORMS 1 AND 2), SUBCELLULAR LOCATION, AND INDUCTION BY
+            LPS; LTA; POLY(I:C) AND TNF.
+REFERENCE   10 (residues 1 to 1036)
+  AUTHORS   Zhang,Q.H., Ye,M., Wu,X.Y., Ren,S.X., Zhao,M., Zhao,C.J., Fu,G.,
+            Shen,Y., Fan,H.Y., Lu,G., Zhong,M., Xu,X.R., Han,Z.G., Zhang,J.W.,
+            Tao,J., Huang,Q.H., Zhou,J., Hu,G.X., Gu,J., Chen,S.J. and Chen,Z.
+  TITLE     Cloning and functional analysis of cDNAs with open reading frames
+            for 300 previously undefined genes expressed in CD34+ hematopoietic
+            stem/progenitor cells
+  JOURNAL   Genome Res. 10 (10), 1546-1560 (2000)
+   PUBMED   11042152
+  REMARK    NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] OF 393-1036 (ISOFORM 1).;
+            TISSUE=Umbilical cord blood
+REFERENCE   11 (residues 1 to 1036)
+  AUTHORS   Agostini,L., Martinon,F., Burns,K., McDermott,M.F., Hawkins,P.N.
+            and Tschopp,J.
+  TITLE     NALP3 forms an IL-1beta-processing inflammasome with increased
+            activity in Muckle-Wells autoinflammatory disorder
+  JOURNAL   Immunity 20 (3), 319-325 (2004)
+   PUBMED   15030775
+  REMARK    IDENTIFICATION OF NRLP3 INFLAMMASOME COMPLEX.
+REFERENCE   12 (residues 1 to 1036)
+  AUTHORS   Papin,S., Cuenin,S., Agostini,L., Martinon,F., Werner,S.,
+            Beer,H.D., Grutter,C., Grutter,M. and Tschopp,J.
+  TITLE     The SPRY domain of Pyrin, mutated in familial Mediterranean fever
+            patients, interacts with inflammasome components and inhibits
+            proIL-1beta processing
+  JOURNAL   Cell Death Differ. 14 (8), 1457-1466 (2007)
+   PUBMED   17431422
+  REMARK    INTERACTION WITH MEFV.
+REFERENCE   13 (residues 1 to 1036)
+  AUTHORS   Kummer,J.A., Broekhuizen,R., Everett,H., Agostini,L., Kuijk,L.,
+            Martinon,F., van Bruggen,R. and Tschopp,J.
+  TITLE     Inflammasome components NALP 1 and 3 show distinct but separate
+            expression profiles in human tissues suggesting a site-specific
+            role in the inflammatory response
+  JOURNAL   J. Histochem. Cytochem. 55 (5), 443-452 (2007)
+   PUBMED   17164409
+  REMARK    SUBCELLULAR LOCATION, AND TISSUE SPECIFICITY.
+REFERENCE   14 (residues 1 to 1036)
+  AUTHORS   McCall,S.H., Sahraei,M., Young,A.B., Worley,C.S., Duncan,J.A.,
+            Ting,J.P. and Marriott,I.
+  TITLE     Osteoblasts express NLRP3, a nucleotide-binding domain and
+            leucine-rich repeat region containing receptor implicated in
+            bacterially induced cell death
+  JOURNAL   J. Bone Miner. Res. 23 (1), 30-40 (2008)
+   PUBMED   17907925
+  REMARK    TISSUE SPECIFICITY, AND INDUCTION BY SALMONELLA.
+REFERENCE   15 (residues 1 to 1036)
+  AUTHORS   Juliana,C., Fernandes-Alnemri,T., Kang,S., Farias,A., Qin,F. and
+            Alnemri,E.S.
+  TITLE     Non-transcriptional priming and deubiquitination regulate NLRP3
+            inflammasome activation
+  JOURNAL   J. Biol. Chem. 287 (43), 36617-36622 (2012)
+   PUBMED   22948162
+  REMARK    UBIQUITINATION.
+REFERENCE   16 (residues 1 to 1036)
+  AUTHORS   Lu,B., Nakamura,T., Inouye,K., Li,J., Tang,Y., Lundback,P.,
+            Valdes-Ferrer,S.I., Olofsson,P.S., Kalb,T., Roth,J., Zou,Y.,
+            Erlandsson-Harris,H., Yang,H., Ting,J.P., Wang,H., Andersson,U.,
+            Antoine,D.J., Chavan,S.S., Hotamisligil,G.S. and Tracey,K.J.
+  TITLE     Novel role of PKR in inflammasome activation and HMGB1 release
+  JOURNAL   Nature 488 (7413), 670-674 (2012)
+   PUBMED   22801494
+  REMARK    FUNCTION, AND INTERACTION WITH EIF2AK2.
+REFERENCE   17 (residues 1 to 1036)
+  AUTHORS   Shenoy,A.R., Wellington,D.A., Kumar,P., Kassa,H., Booth,C.J.,
+            Cresswell,P. and MacMicking,J.D.
+  TITLE     GBP5 promotes NLRP3 inflammasome assembly and immunity in mammals
+  JOURNAL   Science 336 (6080), 481-485 (2012)
+   PUBMED   22461501
+  REMARK    INTERACTION WITH GBP5, AND MUTAGENESIS OF 22-LEU-LYS-23.
+REFERENCE   18 (residues 1 to 1036)
+  AUTHORS   Lo,Y.H., Huang,Y.W., Wu,Y.H., Tsai,C.S., Lin,Y.C., Mo,S.T.,
+            Kuo,W.C., Chuang,Y.T., Jiang,S.T., Shih,H.M. and Lai,M.Z.
+  TITLE     Selective inhibition of the NLRP3 inflammasome by targeting to
+            promyelocytic leukemia protein in mouse and human
+  JOURNAL   Blood 121 (16), 3185-3194 (2013)
+   PUBMED   23430110
+  REMARK    INTERACTION WITH PML.
+REFERENCE   19 (residues 1 to 1036)
+  AUTHORS   Haneklaus,M., O'Neill,L.A. and Coll,R.C.
+  TITLE     Modulatory mechanisms controlling the NLRP3 inflammasome in
+            inflammation: recent developments
+  JOURNAL   Curr. Opin. Immunol. 25 (1), 40-45 (2013)
+   PUBMED   23305783
+  REMARK    REVIEW.
+REFERENCE   20 (residues 1 to 1036)
+  AUTHORS   Lu,A., Magupalli,V.G., Ruan,J., Yin,Q., Atianand,M.K., Vos,M.R.,
+            Schroder,G.F., Fitzgerald,K.A., Wu,H. and Egelman,E.H.
+  TITLE     Unified polymerization mechanism for the assembly of ASC-dependent
+            inflammasomes
+  JOURNAL   Cell 156 (6), 1193-1206 (2014)
+   PUBMED   24630722
+  REMARK    MECHANISM OF INFLAMMASOME ASSEMBLY, AND MUTAGENESIS OF GLU-15;
+            LYS-23; LYS-24; MET-27; ARG-43; GLU-64 AND ASP-82.
+REFERENCE   21 (residues 1 to 1036)
+  AUTHORS   Baroja-Mazo,A., Martin-Sanchez,F., Gomez,A.I., Martinez,C.M.,
+            Amores-Iniesta,J., Compan,V., Barbera-Cremades,M., Yague,J.,
+            Ruiz-Ortiz,E., Anton,J., Bujan,S., Couillin,I., Brough,D.,
+            Arostegui,J.I. and Pelegrin,P.
+  TITLE     The NLRP3 inflammasome is released as a particulate danger signal
+            that amplifies the inflammatory response
+  JOURNAL   Nat. Immunol. 15 (8), 738-748 (2014)
+   PUBMED   24952504
+  REMARK    SUBCELLULAR LOCATION, CHARACTERIZATION OF VARIANT FCAS1/MWS
+            TRP-262, CHARACTERIZATION OF VARIANT CINCA ASN-305, AND
+            CHARACTERIZATION OF VARIANT CINCA/MWS MET-350.
+REFERENCE   22 (residues 1 to 1036)
+  AUTHORS   Lu,A. and Wu,H.
+  TITLE     Structural mechanisms of inflammasome assembly
+  JOURNAL   FEBS J. 282 (3), 435-444 (2015)
+   PUBMED   25354325
+  REMARK    REVIEW ON INFLAMMASOME ASSEMBLY.
+REFERENCE   23 (residues 1 to 1036)
+  AUTHORS   Kimura,T., Jain,A., Choi,S.W., Mandell,M.A., Schroder,K.,
+            Johansen,T. and Deretic,V.
+  TITLE     TRIM-mediated precision autophagy targets cytoplasmic regulators of
+            innate immunity
+  JOURNAL   J. Cell Biol. 210 (6), 973-989 (2015)
+   PUBMED   26347139
+  REMARK    INTERACTION WITH MEFV.
+REFERENCE   24 (residues 1 to 1036)
+  AUTHORS   Bae,J.Y. and Park,H.H.
+  TITLE     Crystal structure of NALP3 protein pyrin domain (PYD) and its
+            implications in inflammasome assembly
+  JOURNAL   J. Biol. Chem. 286 (45), 39528-39536 (2011)
+   PUBMED   21880711
+  REMARK    X-RAY CRYSTALLOGRAPHY (1.7 ANGSTROMS) OF 3-112, SUBUNIT, AND
+            DISULFIDE BOND.
+REFERENCE   25 (residues 1 to 1036)
+  AUTHORS   Dode,C., Le Du,N., Cuisset,L., Letourneur,F., Berthelot,J.M.,
+            Vaudour,G., Meyrier,A., Watts,R.A., Scott,D.G., Nicholls,A.,
+            Granel,B., Frances,C., Garcier,F., Edery,P., Boulinguez,S.,
+            Domergues,J.P., Delpech,M. and Grateau,G.
+  TITLE     New mutations of CIAS1 that are responsible for Muckle-Wells
+            syndrome and familial cold urticaria: a novel mutation underlies
+            both syndromes
+  JOURNAL   Am. J. Hum. Genet. 70 (6), 1498-1506 (2002)
+   PUBMED   11992256
+  REMARK    VARIANT FCAS1 MET-200, VARIANTS MWS ASN-305; MET-350; THR-441 AND
+            ARG-571, AND VARIANT FCAS1/MWS TRP-262.
+REFERENCE   26 (residues 1 to 1036)
+  AUTHORS   Feldmann,J., Prieur,A.M., Quartier,P., Berquin,P., Certain,S.,
+            Cortis,E., Teillac-Hamel,D., Fischer,A. and de Saint Basile,G.
+  TITLE     Chronic infantile neurological cutaneous and articular syndrome is
+            caused by mutations in CIAS1, a gene highly expressed in
+            polymorphonuclear cells and chondrocytes
+  JOURNAL   Am. J. Hum. Genet. 71 (1), 198-203 (2002)
+   PUBMED   12032915
+  REMARK    VARIANTS CINCA ASN-305; LYS-308; SER-311; ARG-360; ASN-438; SER-575
+            AND THR-664, AND TISSUE SPECIFICITY.
+REFERENCE   27 (residues 1 to 1036)
+  AUTHORS   Feldmann,J., Prieur,A.-M., Quartier,P., Berquin,P., Certain,S.,
+            Cortis,E., Teillac-Hamel,D., Fischer,A. and de Saint Basile,G.
+  JOURNAL   Am. J. Hum. Genet. 71, 1258-1258 (2002)
+  REMARK    ERRATUM.
+REFERENCE   28 (residues 1 to 1036)
+  AUTHORS   Aksentijevich,I., Nowak,M., Mallah,M., Chae,J.J., Watford,W.T.,
+            Hofmann,S.R., Stein,L., Russo,R., Goldsmith,D., Dent,P.,
+            Rosenberg,H.F., Austin,F., Remmers,E.F., Balow,J.E. Jr.,
+            Rosenzweig,S., Komarow,H., Shoham,N.G., Wood,G., Jones,J.,
+            Mangra,N., Carrero,H., Adams,B.S., Moore,T.L., Schikler,K.,
+            Hoffman,H., Lovell,D.J., Lipnick,R., Barron,K., O'Shea,J.J.,
+            Kastner,D.L. and Goldbach-Mansky,R.
+  TITLE     De novo CIAS1 mutations, cytokine activation, and evidence for
+            genetic heterogeneity in patients with neonatal-onset multisystem
+            inflammatory disease (NOMID): a new member of the expanding family
+            of pyrin-associated autoinflammatory diseases
+  JOURNAL   Arthritis Rheum. 46 (12), 3340-3348 (2002)
+   PUBMED   12483741
+  REMARK    VARIANTS CINCA HIS-266; ASN-305; LEU-525 AND CYS-572.
+REFERENCE   29 (residues 1 to 1036)
+  AUTHORS   Hoffman,H.M., Gregory,S.G., Mueller,J.L., Tresierras,M.,
+            Broide,D.H., Wanderer,A.A. and Kolodner,R.D.
+  TITLE     Fine structure mapping of CIAS1: identification of an ancestral
+            haplotype and a common FCAS mutation, L353P
+  JOURNAL   Hum. Genet. 112 (2), 209-216 (2003)
+   PUBMED   12522564
+  REMARK    VARIANT FCAS1 PRO-355, AND VARIANT LYS-705.
+REFERENCE   30 (residues 1 to 1036)
+  AUTHORS   Frenkel,J., van Kempen,M.J., Kuis,W. and van Amstel,H.K.
+  TITLE     Variant chronic infantile neurologic, cutaneous, articular syndrome
+            due to a mutation within the leucine-rich repeat domain of CIAS1
+  JOURNAL   Arthritis Rheum. 50 (8), 2719-2720 (2004)
+   PUBMED   15334500
+  REMARK    VARIANT CINCA CYS-861.
+REFERENCE   31 (residues 1 to 1036)
+  AUTHORS   Arostegui,J.I., Aldea,A., Modesto,C., Rua,M.J., Argueelles,F.,
+            Gonzalez-Ensenat,M.A., Ramos,E., Rius,J., Plaza,S., Vives,J. and
+            Yaguee,J.
+  TITLE     Clinical and genetic heterogeneity among Spanish patients with
+            recurrent autoinflammatory syndromes associated with the
+            CIAS1/PYPAF1/NALP3 gene
+  JOURNAL   Arthritis Rheum. 50 (12), 4045-4050 (2004)
+   PUBMED   15593220
+  REMARK    VARIANTS FCAS1 MET-200; PRO-307 AND LYS-490, VARIANT CINCA ASN-305,
+            AND VARIANT MWS MET-350.
+REFERENCE   32 (residues 1 to 1036)
+  AUTHORS   Neven,B., Callebaut,I., Prieur,A.M., Feldmann,J., Bodemer,C.,
+            Lepore,L., Derfalvi,B., Benjaponpitak,S., Vesely,R., Sauvain,M.J.,
+            Oertle,S., Allen,R., Morgan,G., Borkhardt,A., Hill,C.,
+            Gardner-Medwin,J., Fischer,A. and de Saint Basile,G.
+  TITLE     Molecular basis of the spectral expression of CIAS1 mutations
+            associated with phagocytic cell-mediated autoinflammatory disorders
+            CINCA/NOMID, MWS, and FCU
+  JOURNAL   Blood 103 (7), 2809-2815 (2004)
+   PUBMED   14630794
+  REMARK    VARIANTS CINCA LEU-262; PRO-262; ASN-305; GLY-305; SER-311;
+            MET-350; ASP-356; PRO-407; ILE-438; CYS-572 AND PHE-634.
+REFERENCE   33 (residues 1 to 1036)
+  AUTHORS   Stojanov,S., Weiss,M., Lohse,P. and Belohradsky,B.H.
+  TITLE     A novel CIAS1 mutation and plasma/cerebrospinal fluid cytokine
+            profile in a German patient with neonatal-onset multisystem
+            inflammatory disease responsive to methotrexate therapy
+  JOURNAL   Pediatrics 114 (1), E124-E127 (2004)
+   PUBMED   15231984
+  REMARK    VARIANT CINCA THR-174.
+REFERENCE   34 (residues 1 to 1036)
+  AUTHORS   Shalev,S.A., Sprecher,E., Indelman,M., Hujirat,Y., Bergman,R. and
+            Rottem,M.
+  TITLE     A novel missense mutation in CIAS1 encoding the pyrin-like protein,
+            cryopyrin, causes familial cold autoinflammatory syndrome in a
+            family of Ethiopian origin
+  JOURNAL   Int. Arch. Allergy Immunol. 143 (3), 190-193 (2007)
+   PUBMED   17284928
+  REMARK    VARIANT FCAS1 CYS-525.
+COMMENT     On Nov 6, 2009 this sequence version replaced gi:20454846.
+            [FUNCTION] As the sensor component of the NLRP3 inflammasome, plays
+            a crucial role in innate immunity and inflammation. In response to
+            pathogens and other damage-associated signals, initiates the
+            formation of the inflammasome polymeric complex, made of NLRP3,
+            PYCARD and CASP1 (and possibly CASP4 and CASP5). Recruitement of
+            proCASP1 to the inflammasome promotes its activation and
+            CASP1-catalyzed IL1B and IL18 maturation and secretion in the
+            extracellular milieu. Activation of NLRP3 inflammasome is also
+            required for HMGB1 secretion (PubMed:22801494). The active
+            cytokines and HMGB1 stimulate inflammatory responses. Inflammasomes
+            can also induce pyroptosis, an inflammatory form of programmed cell
+            death. Under resting conditions, NLRP3 is autoinhibited. NLRP3
+            activation stimuli include extracellular ATP, reactive oxygen
+            species, K(+) efflux, crystals of monosodium urate or cholesterol,
+            beta-amyloid fibers, environmental or industrial particles and
+            nanoparticles, etc. However, it is unclear what constitutes the
+            direct NLRP3 activator. Independently of inflammasome activation,
+            regulates the differentiation of T helper 2 (Th2) cells and has a
+            role in Th2 cell-dependent asthma and tumor growth (By similarity).
+            During Th2 differentiation, required for optimal IRF4 binding to
+            IL4 promoter and for IRF4-dependent IL4 transcription. Binds to the
+            consensus DNA sequence 5'-GRRGGNRGAG-3'. May also participate in
+            the transcription of IL5, IL13, GATA3, CCR3, CCR4 and MAF (By
+            similarity). {ECO:0000250|UniProtKB:Q8R4B8,
+            ECO:0000269|PubMed:22801494, ECO:0000305|PubMed:23305783}.
+            [SUBUNIT] Sensor component of NLRP3 inflammasomes. Inflammasomes
+            are supramolecular complexes that assemble in the cytosol in
+            response to pathogens and other damage-associated signals and play
+            critical roles in innate immunity and inflammation. The core of
+            NLRP3 inflammasomes consists of a signal sensor component (NLRP3),
+            an adapter (ASC/PYCARD), which recruits an effector proinflammatory
+            caspase (CASP1 and, possibly, CASP4 and CASP5). Within the complex,
+            NLRP3 and PYCARD interact via their respective DAPIN/pyrin domains.
+            This interaction initiates speck formation (nucleation) which
+            greatly enhances further addition of soluble PYCARD molecules to
+            the speck in a prion-like polymerization process (PubMed:24630722).
+            NLRP3 localizes at the end of each PYCARD filament
+            (PubMed:24630722). Clustered PYCARD nucleates the formation of
+            CASP1 filaments through the interaction of their respective CARD
+            domains, acting as a platform for CASP1 polymerization
+            (PubMed:24630722). CASP1 filament formation increases local enzyme
+            concentration, resulting in trans-autocleavage and activation.
+            Active CASP1 then processes IL1B and IL18 precursors, leading to
+            the release of mature cytokines in the extracellular milieu and
+            inflammatory response. Reconstituted ternary inflammasomes show
+            star-shaped structures, in which multiple filaments, containing
+            CASP1, protrude radially from a single central hub, containing the
+            sensor protein and PYCARD (PubMed:24630722). In this complex, the
+            sensor protein is sub-stoichiometric to PYCARD, and PYCARD is
+            further substoichiometric to CASP1, suggesting amplifications of
+            signal transduction from the sensor, via the adapter, to the
+            effector (PubMed:24630722). Interacts with MEFV; this interaction
+            targets NLRP3 to degradation by autophagy, hence preventing
+            excessive IL1B- and IL18-mediated inflammation (PubMed:17431422)
+            (PubMed:26347139). Interacts with GBP5 (via DAPIN domain); this
+            interaction promotes inflammasome assembly in response to microbial
+            and soluble, but not crystalline, agents (PubMed:22461501).
+            Interacts with EIF2AK2/PKR; this interaction requires EIF2AK2
+            activity, is accompanied by EIF2AK2 autophosphorylation and
+            promotes inflammasome assembly in response to specific stimuli
+            (PubMed:22801494). Interacts with PML (isoform PML-1) (via the
+            leucine-rich repeat (LRR) domain); PML-mediated increase in NLRP3
+            inflammasome activation does not depend upon this interaction
+            (PubMed:23430110). Directly interacts with IRF4 (via the LRR
+            domain); this interaction is required for optimal IRF4 binding to
+            IL4 promoter and efficient IL4 transactivation during
+            differentiation of Th2 helper T cells (By similarity).
+            {ECO:0000250|UniProtKB:Q8R4B8, ECO:0000269|PubMed:11786556,
+            ECO:0000269|PubMed:15030775, ECO:0000269|PubMed:17431422,
+            ECO:0000269|PubMed:21880711, ECO:0000269|PubMed:22461501,
+            ECO:0000269|PubMed:22801494, ECO:0000269|PubMed:23430110,
+            ECO:0000269|PubMed:24630722, ECO:0000269|PubMed:26347139,
+            ECO:0000305|PubMed:23305783, ECO:0000305|PubMed:25354325}.
+            [INTERACTION] Q7Z434:MAVS; NbExp=4; IntAct=EBI-6253230, EBI-995373;
+            Q9ULZ3:PYCARD; NbExp=8; IntAct=EBI-6253230, EBI-751215.
+            [SUBCELLULAR LOCATION] Cytoplasm, cytosol
+            {ECO:0000269|PubMed:11786556, ECO:0000269|PubMed:14662828,
+            ECO:0000269|PubMed:17164409}. Inflammasome
+            {ECO:0000269|PubMed:11786556, ECO:0000269|PubMed:14662828,
+            ECO:0000269|PubMed:17164409}. Endoplasmic reticulum
+            {ECO:0000250|UniProtKB:Q8R4B8}. Secreted
+            {ECO:0000269|PubMed:24952504}. Nucleus
+            {ECO:0000250|UniProtKB:Q8R4B8}. Note=In macrophages, under resting
+            conditions, mainly located in the cytosol, on the endoplasmic
+            reticulum. After stimulation with inducers of the NLRP3
+            inflammasome, mitochondria redistribute in the vicinity of the
+            endoplasmic reticulum in the perinuclear region, which results in
+            colocalization of NLRP3 on the endoplasmic reticulum and PYCARD on
+            mitochondria, allowing the activation of inflammasome assembly.
+            After the induction of pyroptosis, inflammasome specks are released
+            into the extracellular space where they can further promote IL1B
+            processing and where they can be engulfed by macrophages.
+            Phagocytosis induces lysosomal damage and inflammasome activation
+            in the recipient cells (PubMed:24952504). In the Th2 subset of
+            CD4(+) helper T cells, mainly located in the nucleus. Nuclear
+            localization depends upon KPNA2. In the Th1 subset of CD4(+) helper
+            T cells, mainly cytoplasmic (By similarity).
+            {ECO:0000250|UniProtKB:Q8R4B8, ECO:0000269|PubMed:24952504}.
+            [ALTERNATIVE PRODUCTS] Event=Alternative splicing; Named
+            isoforms=6; Name=2; IsoId=Q96P20-1; Sequence=Displayed; Name=1;
+            IsoId=Q96P20-2; Sequence=VSP_005520, VSP_005521; Name=3;
+            IsoId=Q96P20-3; Sequence=VSP_005519; Name=4; IsoId=Q96P20-4;
+            Sequence=VSP_005520; Name=5; IsoId=Q96P20-5; Sequence=VSP_005521;
+            Note=No experimental confirmation available.; Name=6;
+            IsoId=Q96P20-6; Sequence=VSP_053714; Note=No experimental
+            confirmation available.
+            [TISSUE SPECIFICITY] Predominantly expressed in macrophages. Also
+            expressed in dendritic cells, B- and T-cells (at protein level)
+            (PubMed:11786556) (PubMed:17164409). Expressed in LPS-treated
+            granulocytes, but not in resting cells (at protein level)
+            (PubMed:17164409). Expression in monocytes is very weak (at protein
+            level) (PubMed:17164409). Expressed in stratified non-keratinizing
+            squamous epithelium, including oral, esophageal and ectocervical
+            mucosa and in the Hassall's corpuscles in the thymus. Also,
+            detected in the stratified epithelium covering the bladder and
+            ureter (transitional mucosa) (at protein level) (PubMed:17164409).
+            Expressed in chondrocytes (PubMed:12032915). Expressed at low
+            levels in resting osteoblasts (PubMed:17907925).
+            {ECO:0000269|PubMed:11786556, ECO:0000269|PubMed:12032915,
+            ECO:0000269|PubMed:17164409, ECO:0000269|PubMed:17907925}.
+            [INDUCTION] By activators of Toll-like receptors, such as
+            lipoteichoic acid (LTA) (TLR2), polyinosine-polycytidylic acid
+            (poly(I:C), a synthetic analog of dsRNA) (TLR3) and bacterial
+            lipopolysaccharides (LPS) (TLR4), and by TNF (PubMed:14662828).
+            Up-regulated in osteoblasts after exposure to invasive, but not
+            invasion-defective, strains of Salmonella typhimurium (at protein
+            level) (PubMed:17907925). {ECO:0000269|PubMed:14662828,
+            ECO:0000269|PubMed:17907925}.
+            [DOMAIN] The pyrin domain (also called DAPIN domain or PYD) is
+            involved in PYCARD-binding. {ECO:0000269|PubMed:24630722}.
+            [DOMAIN] The LRR domain mediates the interaction with IRF4 and PML.
+            {ECO:0000250|UniProtKB:Q8R4B8, ECO:0000269|PubMed:23430110}.
+            [DOMAIN] Intramolecular interactions between NACHT and leucine-rich
+            repeat (LRR) domains may be important for autoinhibition in the
+            absence of activating signal. {ECO:0000250|UniProtKB:Q9EPB4,
+            ECO:0000305|PubMed:11786556}.
+            [PTM] The disulfide bond in the pyrin domain might play a role in
+            reactive oxygen species-mediated activation.
+            {ECO:0000305|PubMed:21880711}.
+            [PTM] Ubiquitinated; undergoes both 'Lys-48'- and 'Lys-63'-linked
+            polyubiquitination. Ubiquitination does not lead to degradation,
+            but inhibits inflammasome activation (By similarity).
+            Deubiquitination is catalyzed by BRCC3 and associated with NLRP3
+            activation and inflammasome assembly. This process can be induced
+            by the activation of Toll-like receptors (by LPS), through a
+            non-transcriptional pathway dependent on the mitochondrial
+            production of reactive oxygen species, and by ATP.
+            {ECO:0000250|UniProtKB:Q8R4B8, ECO:0000269|PubMed:22948162}.
+            [DISEASE] Familial cold autoinflammatory syndrome 1 (FCAS1)
+            [MIM:120100]: A rare autosomal dominant systemic inflammatory
+            disease characterized by recurrent episodes of maculopapular rash
+            associated with arthralgias, myalgias, fever and chills, swelling
+            of the extremities, and conjunctivitis after generalized exposure
+            to cold. Rarely, some patients may also develop late-onset renal
+            amyloidosis. {ECO:0000269|PubMed:11687797,
+            ECO:0000269|PubMed:11992256, ECO:0000269|PubMed:12355493,
+            ECO:0000269|PubMed:12522564, ECO:0000269|PubMed:15593220,
+            ECO:0000269|PubMed:17284928, ECO:0000269|PubMed:24952504}. Note=The
+            disease is caused by mutations affecting the gene represented in
+            this entry.
+            [DISEASE] Muckle-Wells syndrome (MWS) [MIM:191900]: A hereditary
+            periodic fever syndrome characterized by fever, chronic recurrent
+            urticaria, arthralgias, progressive sensorineural deafness, and
+            reactive renal amyloidosis. The disease may be severe if
+            generalized reactive amyloidosis occurs.
+            {ECO:0000269|PubMed:11687797, ECO:0000269|PubMed:11992256,
+            ECO:0000269|PubMed:12355493, ECO:0000269|PubMed:15593220,
+            ECO:0000269|PubMed:24952504}. Note=The disease is caused by
+            mutations affecting the gene represented in this entry.
+            [DISEASE] Chronic infantile neurologic cutaneous and articular
+            syndrome (CINCA) [MIM:607115]: Rare congenital inflammatory
+            disorder characterized by a triad of neonatal onset of cutaneous
+            symptoms, chronic meningitis, and joint manifestations with
+            recurrent fever and inflammation. {ECO:0000269|PubMed:12032915,
+            ECO:0000269|PubMed:12483741, ECO:0000269|PubMed:14630794,
+            ECO:0000269|PubMed:15231984, ECO:0000269|PubMed:15334500,
+            ECO:0000269|PubMed:15593220, ECO:0000269|PubMed:24952504}. Note=The
+            disease is caused by mutations affecting the gene represented in
+            this entry.
+            [SIMILARITY] Belongs to the NLRP family. {ECO:0000305}.
+            [SIMILARITY] Contains 9 LRR (leucine-rich) repeats. {ECO:0000305}.
+            [SIMILARITY] Contains 1 NACHT domain.
+            {ECO:0000255|PROSITE-ProRule:PRU00136}.
+            [SIMILARITY] Contains 1 pyrin domain.
+            {ECO:0000255|PROSITE-ProRule:PRU00061}.
+            [SEQUENCE CAUTION] Sequence=AAC39910.1; Type=Frameshift;
+            Positions=893, 918, 926; Evidence={ECO:0000305};
+            Sequence=AAL12497.1; Type=Erroneous initiation; Note=Translation
+            N-terminally extended.; Evidence={ECO:0000305};
+            Sequence=AAL12498.1; Type=Erroneous initiation; Note=Translation
+            N-terminally extended.; Evidence={ECO:0000305};
+            Sequence=AAL33908.1; Type=Erroneous initiation; Note=Translation
+            N-terminally extended.; Evidence={ECO:0000305};
+            Sequence=AAL65136.1; Type=Erroneous initiation; Note=Translation
+            N-terminally extended.; Evidence={ECO:0000305};
+            Sequence=BAD92128.1; Type=Erroneous initiation; Note=Translation
+            N-terminally extended.; Evidence={ECO:0000305};
+            Sequence=BAG37494.1; Type=Erroneous initiation; Note=Translation
+            N-terminally extended.; Evidence={ECO:0000305}.
+            [WEB RESOURCE] Name=INFEVERS; Note=Repertory of FMF and hereditary
+            autoinflammatory disorders mutations;
+            URL='http://fmf.igh.cnrs.fr/ISSAID/infevers/search.php?n=4'.
+FEATURES             Location/Qualifiers
+     source          1..1036
+                     /organism="Homo sapiens"
+                     /db_xref="taxon:9606"
+     gene            1..1036
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+     Protein         1..1036
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /product="NACHT, LRR and PYD domains-containing protein 3"
+                     /note="Angiotensin/vasopressin receptor AII/AVP-like;
+                     Caterpiller protein 1.1; Cold-induced autoinflammatory
+                     syndrome 1 protein; Cryopyrin; PYRIN-containing APAF1-like
+                     protein 1; CLR1.1"
+                     /UniProtKB_evidence="Evidence at protein level"
+     Region          1..1036
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Mature chain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="NACHT, LRR and PYD domains-containing protein 3.
+                     /FTId=PRO_0000080886."
+     Region          1..93
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Pyrin. {ECO:0000255|PROSITE-ProRule:PRU00061}."
+     Region          6..15
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Bond            bond(8,108)
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /bond_type="disulfide"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Redox-active. {ECO:0000269|PubMed:21880711}."
+     Region          10..93
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Pyrin_NALPs"
+                     /note="Pyrin death domain found in NALP proteins; cd08320"
+                     /db_xref="CDD:260032"
+     Site            15
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E->R: Complete loss of PYCARD filament nucleation.
+                     {ECO:0000269|PubMed:24630722}."
+     Region          19..30
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Site            22..23
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LK->PA: Loss of PYCARD-binding. No effect on
+                     GBP5-binding. {ECO:0000269|PubMed:22461501}."
+     Site            23
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K->E: Complete loss of PYCARD filament nucleation;
+                     when associated with E-24. {ECO:0000269|PubMed:24630722}."
+     Site            24
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K->E: Complete loss of PYCARD filament nucleation;
+                     when associated with E-23. {ECO:0000269|PubMed:24630722}."
+     Site            27
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="M->E: Complete loss of PYCARD filament nucleation.
+                     {ECO:0000269|PubMed:24630722}."
+     Region          34..37
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Beta-strand region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Region          43..48
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Site            43
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R->W: Complete loss of PYCARD filament nucleation.
+                     {ECO:0000269|PubMed:24630722}."
+     Region          51..62
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Region          64..77
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Site            64
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E->R: Complete loss of PYCARD filament nucleation.
+                     {ECO:0000269|PubMed:24630722}."
+     Region          81..89
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Helical region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="{ECO:0000244|PDB:3QF2}."
+     Site            82
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="mutagenized"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="D->R: Complete loss of PYCARD filament nucleation.
+                     {ECO:0000269|PubMed:24630722}."
+     Region          144..209
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="FISNA"
+                     /note="Fish-specific NACHT associated domain; pfam14484"
+                     /db_xref="CDD:258624"
+     Region          167
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R -> L (in Ref. 2; AAL78632/AAM14669/ AAL14640).
+                     {ECO:0000305}."
+     Region          174
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="I -> T (in CINCA). {ECO:0000269|PubMed:15231984}.
+                     /FTId=VAR_043679."
+     Region          200
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="V -> M (in FCAS1 and MWS; dbSNP:rs121908147).
+                     {ECO:0000269|PubMed:11687797, ECO:0000269|PubMed:11992256,
+                     ECO:0000269|PubMed:12355493, ECO:0000269|PubMed:15593220}.
+                     /FTId=VAR_013227."
+     Region          220..536
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Domain"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="NACHT. {ECO:0000255|PROSITE-ProRule:PRU00136}."
+     Region          220..389
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="NACHT"
+                     /note="NACHT domain; pfam05729"
+                     /db_xref="CDD:253353"
+     Site            226..233
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="np-binding"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="ATP. {ECO:0000255|PROSITE-ProRule:PRU00136}."
+     Region          262
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R -> L (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043680."
+     Region          262
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R -> P (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043681."
+     Region          262
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R -> W (in FCAS1 and MWS; spontaneous
+                     polymerization into inflammasome speck).
+                     {ECO:0000269|PubMed:11992256, ECO:0000269|PubMed:12355493,
+                     ECO:0000269|PubMed:24952504}. /FTId=VAR_014104."
+     Region          266
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="L -> H (in CINCA). {ECO:0000269|PubMed:12483741}.
+                     /FTId=VAR_043682."
+     Region          305
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="D -> G (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043683."
+     Region          305
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="D -> N (in CINCA and MWS; spontaneous
+                     polymerization into inflammasome speck).
+                     {ECO:0000269|PubMed:11992256, ECO:0000269|PubMed:12032915,
+                     ECO:0000269|PubMed:12483741, ECO:0000269|PubMed:14630794,
+                     ECO:0000269|PubMed:15593220, ECO:0000269|PubMed:24952504}.
+                     /FTId=VAR_014105."
+     Region          307
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="L -> P (in FCAS1 and MWS).
+                     {ECO:0000269|PubMed:12355493,
+                     ECO:0000269|PubMed:15593220}. /FTId=VAR_014124."
+     Region          308
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Q -> K (in CINCA). {ECO:0000269|PubMed:12032915}.
+                     /FTId=VAR_043684."
+     Region          311
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="F -> S (in CINCA). {ECO:0000269|PubMed:12032915,
+                     ECO:0000269|PubMed:14630794}. /FTId=VAR_014106."
+     Region          323
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Q -> H (in Ref. 2; AAL78632/AAM14669/ AAL14640).
+                     {ECO:0000305}."
+     Region          350
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="T -> M (in MWS and CINCA; spontaneous
+                     polymerization into inflammasome speck).
+                     {ECO:0000269|PubMed:11992256, ECO:0000269|PubMed:14630794,
+                     ECO:0000269|PubMed:15593220, ECO:0000269|PubMed:24952504}.
+                     /FTId=VAR_014366."
+     Region          354
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="A -> V (in MWS). {ECO:0000269|PubMed:11687797}.
+                     /FTId=VAR_013228."
+     Region          355
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="L -> P (in FCAS1; dbSNP:rs28937896).
+                     {ECO:0000269|PubMed:12522564}. /FTId=VAR_043685."
+     Region          356
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E -> D (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043686."
+     Region          360
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="H -> R (in CINCA). {ECO:0000269|PubMed:12032915}.
+                     /FTId=VAR_014367."
+     Region          407
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="T -> P (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043687."
+     Region          438
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="T -> I (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043688."
+     Region          438
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="T -> N (in CINCA). {ECO:0000269|PubMed:12032915}.
+                     /FTId=VAR_014368."
+     Region          439
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="T -> S (in Ref. 10; AAC39910). {ECO:0000305}."
+     Region          441
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="A -> T (in MWS). {ECO:0000269|PubMed:11992256}.
+                     /FTId=VAR_014369."
+     Region          441
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="A -> V (in FCAS1). {ECO:0000269|PubMed:11687797}.
+                     /FTId=VAR_013229."
+     Region          490
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="R -> K (in FCAS1; dbSNP:rs145268073).
+                     {ECO:0000269|PubMed:15593220}. /FTId=VAR_043689."
+     Region          523
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="M -> V (in Ref. 5; BAG37494). {ECO:0000305}."
+     Region          525
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="F -> C (in FCAS1). {ECO:0000269|PubMed:17284928}.
+                     /FTId=VAR_031853."
+     Region          525
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="F -> L (in CINCA). {ECO:0000269|PubMed:12483741}.
+                     /FTId=VAR_043690."
+     Region          571
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="G -> R (in MWS). {ECO:0000269|PubMed:11992256}.
+                     /FTId=VAR_014107."
+     Region          572
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y -> C (in CINCA). {ECO:0000269|PubMed:12483741,
+                     ECO:0000269|PubMed:14630794}. /FTId=VAR_043691."
+     Region          575..951
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="LRR_RI"
+                     /note="Leucine-rich repeats (LRRs), ribonuclease inhibitor
+                     (RI)-like subfamily. LRRs are 20-29 residue sequence
+                     motifs present in many proteins that participate in
+                     protein-protein interactions and have different functions
+                     and cellular locations. LRRs correspond...; cd00116"
+                     /db_xref="CDD:238064"
+     Region          575
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="F -> S (in CINCA). {ECO:0000269|PubMed:12032915}.
+                     /FTId=VAR_014108."
+     Site            order(577,579,582,584,599,602,604,607,609,627,630,632,635,
+                     637,658,661,663,666,668,743,746,748,751,753,772,775,777,
+                     780,782,800,803,805,808,810,829,832,834,837,839,857,860,
+                     862,865,867,886,889,891,894,896,914,917,919,922,924,943,
+                     946,948,951)
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="other"
+                     /note="Leucine-rich repeats"
+                     /db_xref="CDD:238064"
+     Region          599
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K -> M (in Ref. 10; AAC39910). {ECO:0000305}."
+     Site            order(605..606,665,779,807,864,890,892,918,947)
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /site_type="other"
+                     /note="Substrate binding site [chemical binding]"
+                     /db_xref="CDD:238064"
+     Region          617
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="K -> N (in Ref. 2; AAL78632/AAM14669/ AAL14640).
+                     {ECO:0000305}."
+     Region          622..623
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Conflict"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="QI -> HD (in Ref. 10; AAC39910). {ECO:0000305}."
+     Region          629
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="E -> G (in FCAS1). {ECO:0000269|PubMed:11687797}.
+                     /FTId=VAR_013230."
+     Region          634
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="L -> F (in CINCA). {ECO:0000269|PubMed:14630794}.
+                     /FTId=VAR_043692."
+     Region          664
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="M -> T (in CINCA). {ECO:0000269|PubMed:12032915}.
+                     /FTId=VAR_014370."
+     Region          690..697
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Compositionally biased region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Poly-Glu."
+     Region          705
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Q -> K (in dbSNP:rs35829419).
+                     {ECO:0000269|PubMed:12522564}. /FTId=VAR_043693."
+     Region          720..1036
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Splicing variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Missing (in isoform 3).
+                     {ECO:0000303|PubMed:12355493}. /FTId=VSP_005519."
+     Region          721..777
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Splicing variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Missing (in isoform 1 and isoform 4).
+                     {ECO:0000303|PubMed:11042152, ECO:0000303|PubMed:11687797,
+                     ECO:0000303|PubMed:12355493, ECO:0000303|PubMed:14662828,
+                     ECO:0000303|PubMed:14702039, ECO:0000303|PubMed:15489334}.
+                     /FTId=VSP_005520."
+     Region          <739..>924
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="LRR"
+                     /note="Leucine-rich repeat (LRR) protein [Transcription];
+                     COG4886"
+                     /db_xref="CDD:227223"
+     Region          742..762
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 1."
+     Region          743..771
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          771..792
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 2."
+     Region          776..796
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Splicing variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="WLGRCGLSHECCFDISLVLSS -> C (in isoform 6).
+                     {ECO:0000303|PubMed:15489334}. /FTId=VSP_053714."
+     Region          799..819
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 3."
+     Region          800..828
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          828..849
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 4."
+     Region          829..856
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          836..892
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Splicing variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Missing (in isoform 1 and isoform 5).
+                     {ECO:0000303|PubMed:11042152, ECO:0000303|PubMed:11687797,
+                     ECO:0000303|PubMed:12355493, ECO:0000303|PubMed:14662828,
+                     ECO:0000303|PubMed:14702039, ECO:0000303|Ref.5}.
+                     /FTId=VSP_005521."
+     Region          856..876
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 5."
+     Region          857..881
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          861
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Variant"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Y -> C (in CINCA). {ECO:0000269|PubMed:15334500}.
+                     /FTId=VAR_023551."
+     Region          885..>1031
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="LRR_RI"
+                     /note="Leucine-rich repeats (LRRs), ribonuclease inhibitor
+                     (RI)-like subfamily. LRRs are 20-29 residue sequence
+                     motifs present in many proteins that participate in
+                     protein-protein interactions and have different functions
+                     and cellular locations. LRRs correspond...; cd00116"
+                     /db_xref="CDD:238064"
+     Region          885..906
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 6."
+     Region          886..913
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          913..981
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="LRR_8"
+                     /note="Leucine rich repeat; pfam13855"
+                     /db_xref="CDD:258126"
+     Region          913..933
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 7."
+     Region          914..942
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          942..963
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 8."
+     Region          943..970
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+     Region          970..991
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="Repetitive region"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="LRR 9."
+     Region          971..990
+                     /gene="NLRP3"
+                     /gene_synonym="C1orf7"
+                     /gene_synonym="CIAS1"
+                     /gene_synonym="NALP3"
+                     /gene_synonym="PYPAF1"
+                     /region_name="leucine-rich repeat"
+                     /note="leucine-rich repeat [structural motif]"
+                     /db_xref="CDD:275380"
+ORIGIN      
+        1 mkmastrckl aryledledv dlkkfkmhle dyppqkgcip lprgqtekad hvdlatlmid
+       61 fngeekawam avwifaainr rdlyekakrd epkwgsdnar vsnptvicqe dsieeewmgl
+      121 leylsrisic kmkkdyrkky rkyvrsrfqc iedrnarlge svslnkrytr lrlikehrsq
+      181 qereqellai gktktcespv spikmellfd pddehsepvh tvvfqgaagi gktilarkmm
+      241 ldwasgtlyq drfdylfyih crevslvtqr slgdlimscc pdpnppihki vrkpsrilfl
+      301 mdgfdelqga fdehigplct dwqkaergdi llsslirkkl lpeasllitt rpvaleklqh
+      361 lldhprhvei lgfseakrke yffkyfsdea qaraafsliq enevlftmcf iplvcwivct
+      421 glkqqmesgk slaqtskttt avyvfflssl lqprggsqeh glcahlwglc slaadgiwnq
+      481 kilfeesdlr nhglqkadvs aflrmnlfqk evdcekfysf ihmtfqeffa amyylleeek
+      541 egrtnvpgsr lklpsrdvtv llenygkfek gylifvvrfl fglvnqerts ylekklscki
+      601 sqqirlellk wievkakakk lqiqpsqlel fyclyemqee dfvqramdyf pkieinlstr
+      661 mdhmvssfci enchrvesls lgflhnmpke eeeeekegrh ldmvqcvlps sshaacshgl
+      721 vnshltssfc rglfsvlsts qslteldlsd nslgdpgmrv lcetlqhpgc nirrlwlgrc
+      781 glsheccfdi slvlssnqkl veldlsdnal gdfgirllcv glkhllcnlk klwlvscclt
+      841 saccqdlasv lstshsltrl yvgenalgds gvailcekak npqcnlqklg lvnsgltsvc
+      901 csalssvlst nqnlthlylr gntlgdkgik llcegllhpd cklqvleldn cnltshccwd
+      961 lstlltssqs lrklslgnnd lgdlgvmmfc evlkqqscll qnlglsemyf nyetksalet
+     1021 lqeekpeltv vfepsw
+//
+
